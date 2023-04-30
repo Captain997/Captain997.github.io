@@ -35,15 +35,48 @@
       </tags>
   </entry>
   <entry>
+    <title>Android应用推荐系列</title>
+    <url>/2023/04/21/%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90%E7%B3%BB%E5%88%97/</url>
+    <content><![CDATA[<h2 id="1-你跳跳"><a class="markdownIt-Anchor" href="#1-你跳跳"></a> 1、你跳跳</h2>
+<p><strong>帮助我们自动跳过一些app开屏烦人的界面，如广告</strong><br />
+<strong>该应用不会无度索取用户权限，是一款良心app</strong><br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-21/turnonltt.gif" alt="" /></p>
+<h3 id="官网地址李跳跳"><a class="markdownIt-Anchor" href="#官网地址李跳跳"></a> 官网地址：<a href="https://litiaotiao.cn/">李跳跳</a></h3>
+<h3 id="高速下载蓝奏云-密码-cf24"><a class="markdownIt-Anchor" href="#高速下载蓝奏云-密码-cf24"></a> 高速下载：<a href="https://wwjw.lanzoum.com/iKBU80tn5pqj?pwd=cf24#cf24">蓝奏云</a>   密码: <code>cf24</code></h3>
+]]></content>
+      <categories>
+        <category>Android应用推荐</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>app</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>将本地项目推送到GitHub</title>
     <url>/2023/04/20/%E5%B0%86%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E6%8E%A8%E9%80%81%E5%88%B0GitHub/</url>
     <content><![CDATA[<p>1.初始化仓库：git init</p>
-<p>2.配置签名：① git config user.name “Zhang3”  ② git config user.email “<a href="mailto:&#x7a;&#x68;&#97;&#x6e;&#103;&#x33;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;">&#x7a;&#x68;&#97;&#x6e;&#103;&#x33;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;</a>“<br>  –签名配置完成后，可以隐藏目录下找到config，查看或编辑签名。假如工作中又来了一个项目，但这个项目的账密想签别的名字。可以在工程下修改。<br>  但一般在公司中多个项目都一样的配置就没必要放在隐藏目录下，可直接配全局的。例如：git config –global user.name “zhang3”<br>  全局配置默认路径为：C&#x2F;Users&#x2F;Adminnistator&#x2F;.gitconfig  优先用项目中的配置，如果项目中没有，则用全局的配置。</p>
-<p>3.查看状态：git status<br>  –确认目录下有哪些代码待提交或没有提交，下面显示成红色没有提交。</p>
-<p>4.添加文件：git add .<br>  –git add .(注意这个”.”，是有空格的，”.”代表当前目录下的全部文件都提交）<br>  –也可输入:git add src ,即提交了src，此src为文件夹。<br>  提交后，则会变绿。变绿代表进入了”暂存区“，并没有提交到服务器上。</p>
-<p>5.提交文件：git commit<br>  –提交至服务器。将”暂存区“（绿色的内容）提交至服务器。<br>  –git commit -m “双引号中间是提交代码时写的备注”<br>  –注意：如果在提交时提示<br>    #Please enter the commit message for your changes. Lines starting<br>    #with ‘#’ will be ignored, and an empty message aborts the commit.<br>    则修改提交命令为： git commit -m “注释” </p>
-<p>6.再次查看状态：git status<br>  –确认暂储区没有待提交的内容。</p>
-<p>7.推送本地代码到GitHub仓库：git push -u origin master<br>  –此步的前提是已经在GitHub上创建好了Git仓库，否则得先创建仓库，再进行此步，具体操作见步骤三</p>
+<p>2.配置签名：① git config <a href="http://user.name">user.name</a> “Zhang3”  ② git config user.email “<a href="mailto:zhang3@163.com">zhang3@163.com</a>”<br />
+–签名配置完成后，可以隐藏目录下找到config，查看或编辑签名。假如工作中又来了一个项目，但这个项目的账密想签别的名字。可以在工程下修改。<br />
+但一般在公司中多个项目都一样的配置就没必要放在隐藏目录下，可直接配全局的。例如：git config --global <a href="http://user.name">user.name</a> “zhang3”<br />
+全局配置默认路径为：C/Users/Adminnistator/.gitconfig  优先用项目中的配置，如果项目中没有，则用全局的配置。</p>
+<p>3.查看状态：git status<br />
+–确认目录下有哪些代码待提交或没有提交，下面显示成红色没有提交。</p>
+<p>4.添加文件：git add .<br />
+–git add .(注意这个&quot;.“，是有空格的，”.&quot;代表当前目录下的全部文件都提交）<br />
+–也可输入:git add src ,即提交了src，此src为文件夹。<br />
+提交后，则会变绿。变绿代表进入了”暂存区“，并没有提交到服务器上。</p>
+<p>5.提交文件：git commit<br />
+–提交至服务器。将”暂存区“（绿色的内容）提交至服务器。<br />
+–git commit -m “双引号中间是提交代码时写的备注”<br />
+–注意：如果在提交时提示<br />
+#Please enter the commit message for your changes. Lines starting<br />
+#with ‘#’ will be ignored, and an empty message aborts the commit.<br />
+则修改提交命令为： git commit -m “注释”</p>
+<p>6.再次查看状态：git status<br />
+–确认暂储区没有待提交的内容。</p>
+<p>7.推送本地代码到GitHub仓库：git push -u origin master<br />
+–此步的前提是已经在GitHub上创建好了Git仓库，否则得先创建仓库，再进行此步，具体操作见步骤三</p>
 <p>8.（2022-03-25 更新）在GitHub上修改代码保存后，更新修改后的代码到本地，需执行命令：git pull origin</p>
 ]]></content>
       <categories>
@@ -51,19 +84,6 @@
       </categories>
       <tags>
         <tag>GitHub</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Android应用推荐系列</title>
-    <url>/2023/04/21/%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90%E7%B3%BB%E5%88%97/</url>
-    <content><![CDATA[<h2 id="1、你跳跳"><a href="#1、你跳跳" class="headerlink" title="1、你跳跳"></a>1、你跳跳</h2><p><strong>帮助我们自动跳过一些app开屏烦人的界面，如广告</strong><br><strong>该应用不会无度索取用户权限，是一款良心app</strong><br><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-21/turnonltt.gif"></p>
-<h3 id="官网地址：李跳跳"><a href="#官网地址：李跳跳" class="headerlink" title="官网地址：李跳跳"></a>官网地址：<a href="https://litiaotiao.cn/">李跳跳</a></h3><h3 id="高速下载：蓝奏云-密码-cf24"><a href="#高速下载：蓝奏云-密码-cf24" class="headerlink" title="高速下载：蓝奏云   密码: cf24"></a>高速下载：<a href="https://wwjw.lanzoum.com/iKBU80tn5pqj?pwd=cf24#cf24">蓝奏云</a>   密码: <code>cf24</code></h3>]]></content>
-      <categories>
-        <category>Android应用推荐</category>
-      </categories>
-      <tags>
-        <tag>Android</tag>
-        <tag>app</tag>
       </tags>
   </entry>
   <entry>
