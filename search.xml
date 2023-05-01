@@ -1,6 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>E5开发者计划续订</title>
+    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
+    <content><![CDATA[<p>E5开发者计划续订E5开发者计划续订</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Microsoft 365</tag>
+        <tag>E5开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git安装与配置</title>
+    <url>/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
+<h3 id="1下载-git"><a class="markdownIt-Anchor" href="#1下载-git"></a> 1.下载 Git</h3>
+<p>根据操作系统类型下载对应版本</p>
+<p><a href="https://git-scm.com/download">Git官网下载</a><br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/1.png" alt="" /></p>
+<h3 id="2安装"><a class="markdownIt-Anchor" href="#2安装"></a> 2.安装</h3>
+<p>大部分人用Windows，固以Windows为例<br />
+双击打开下载好的  Git-2.40.1-64-bit<br />
+默认路径，可按需修改<br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/2.png" alt="" /></p>
+<h3 id="3安装选项"><a class="markdownIt-Anchor" href="#3安装选项"></a> 3.安装选项</h3>
+<p>如果不明确自己的需求，建议默认即可<br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/3.png" alt="" /></p>
+<h3 id="4默认分支配置"><a class="markdownIt-Anchor" href="#4默认分支配置"></a> 4.默认分支配置</h3>
+<p>Git默认的是master分支，但目前GitHub创建的分支默认已经改成main<br />
+所以建议将Git的默认分支设置成main<br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/4.png" alt="" /><br />
+接下来无脑下一步即可</p>
+<h3 id="5安装成功"><a class="markdownIt-Anchor" href="#5安装成功"></a> 5.安装成功</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/5.png" alt="" /></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>将本地项目推送到GitHub</title>
+    <url>/2023/04/20/%E5%B0%86%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E6%8E%A8%E9%80%81%E5%88%B0GitHub/</url>
+    <content><![CDATA[<p>1.初始化仓库：git init</p>
+<p>2.配置签名：① git config <a href="http://user.name">user.name</a> “Zhang3”  ② git config user.email “<a href="mailto:zhang3@163.com">zhang3@163.com</a>”<br />
+–签名配置完成后，可以隐藏目录下找到config，查看或编辑签名。假如工作中又来了一个项目，但这个项目的账密想签别的名字。可以在工程下修改。<br />
+但一般在公司中多个项目都一样的配置就没必要放在隐藏目录下，可直接配全局的。例如：git config --global <a href="http://user.name">user.name</a> “zhang3”<br />
+全局配置默认路径为：C/Users/Adminnistator/.gitconfig  优先用项目中的配置，如果项目中没有，则用全局的配置。</p>
+<p>3.查看状态：git status<br />
+–确认目录下有哪些代码待提交或没有提交，下面显示成红色没有提交。</p>
+<p>4.添加文件：git add .<br />
+–git add .(注意这个&quot;.“，是有空格的，”.&quot;代表当前目录下的全部文件都提交）<br />
+–也可输入:git add src ,即提交了src，此src为文件夹。<br />
+提交后，则会变绿。变绿代表进入了”暂存区“，并没有提交到服务器上。</p>
+<p>5.提交文件：git commit<br />
+–提交至服务器。将”暂存区“（绿色的内容）提交至服务器。<br />
+–git commit -m “双引号中间是提交代码时写的备注”<br />
+–注意：如果在提交时提示<br />
+#Please enter the commit message for your changes. Lines starting<br />
+#with ‘#’ will be ignored, and an empty message aborts the commit.<br />
+则修改提交命令为： git commit -m “注释”</p>
+<p>6.再次查看状态：git status<br />
+–确认暂储区没有待提交的内容。</p>
+<p>7.推送本地代码到GitHub仓库：git push -u origin master<br />
+–此步的前提是已经在GitHub上创建好了Git仓库，否则得先创建仓库，再进行此步，具体操作见步骤三</p>
+<p>8.（2022-03-25 更新）在GitHub上修改代码保存后，更新修改后的代码到本地，需执行命令：git pull origin</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>GitHub</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo基础命令</title>
     <url>/2023/04/19/Hexo%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h2 id="️基础写作"><a class="markdownIt-Anchor" href="#️基础写作"></a> ✏️基础写作</h2>
@@ -157,56 +236,9 @@
       </tags>
   </entry>
   <entry>
-    <title>E5开发者计划续订</title>
-    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
-    <content><![CDATA[<p>E5开发者计划续订E5开发者计划续订</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Microsoft 365</tag>
-        <tag>E5开发</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>自编译OpenWrt固件</title>
     <url>/2023/04/20/%E8%87%AA%E7%BC%96%E8%AF%91OpenWrt%E5%9B%BA%E4%BB%B6/</url>
     <content><![CDATA[<p>文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>将本地项目推送到GitHub</title>
-    <url>/2023/04/20/%E5%B0%86%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E6%8E%A8%E9%80%81%E5%88%B0GitHub/</url>
-    <content><![CDATA[<p>1.初始化仓库：git init</p>
-<p>2.配置签名：① git config <a href="http://user.name">user.name</a> “Zhang3”  ② git config user.email “<a href="mailto:zhang3@163.com">zhang3@163.com</a>”<br />
-–签名配置完成后，可以隐藏目录下找到config，查看或编辑签名。假如工作中又来了一个项目，但这个项目的账密想签别的名字。可以在工程下修改。<br />
-但一般在公司中多个项目都一样的配置就没必要放在隐藏目录下，可直接配全局的。例如：git config --global <a href="http://user.name">user.name</a> “zhang3”<br />
-全局配置默认路径为：C/Users/Adminnistator/.gitconfig  优先用项目中的配置，如果项目中没有，则用全局的配置。</p>
-<p>3.查看状态：git status<br />
-–确认目录下有哪些代码待提交或没有提交，下面显示成红色没有提交。</p>
-<p>4.添加文件：git add .<br />
-–git add .(注意这个&quot;.“，是有空格的，”.&quot;代表当前目录下的全部文件都提交）<br />
-–也可输入:git add src ,即提交了src，此src为文件夹。<br />
-提交后，则会变绿。变绿代表进入了”暂存区“，并没有提交到服务器上。</p>
-<p>5.提交文件：git commit<br />
-–提交至服务器。将”暂存区“（绿色的内容）提交至服务器。<br />
-–git commit -m “双引号中间是提交代码时写的备注”<br />
-–注意：如果在提交时提示<br />
-#Please enter the commit message for your changes. Lines starting<br />
-#with ‘#’ will be ignored, and an empty message aborts the commit.<br />
-则修改提交命令为： git commit -m “注释”</p>
-<p>6.再次查看状态：git status<br />
-–确认暂储区没有待提交的内容。</p>
-<p>7.推送本地代码到GitHub仓库：git push -u origin master<br />
-–此步的前提是已经在GitHub上创建好了Git仓库，否则得先创建仓库，再进行此步，具体操作见步骤三</p>
-<p>8.（2022-03-25 更新）在GitHub上修改代码保存后，更新修改后的代码到本地，需执行命令：git pull origin</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>GitHub</tag>
-      </tags>
   </entry>
 </search>
