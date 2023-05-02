@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Android应用推荐</title>
-    <url>/2023/04/21/Android%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<h2 id="1-你跳跳"><a class="markdownIt-Anchor" href="#1-你跳跳"></a> 1、你跳跳</h2>
-<p><strong>帮助我们自动跳过一些app开屏烦人的界面，如广告</strong><br />
-<strong>该应用不会无度索取用户权限，是一款良心app</strong><br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-21/turnonltt.gif" alt="" /></p>
-<h3 id="官网地址李跳跳"><a class="markdownIt-Anchor" href="#官网地址李跳跳"></a> 官网地址：<a href="https://litiaotiao.cn/">李跳跳</a></h3>
-<h3 id="高速下载蓝奏云-密码-cf24"><a class="markdownIt-Anchor" href="#高速下载蓝奏云-密码-cf24"></a> 高速下载：<a href="https://wwjw.lanzoum.com/iKBU80tn5pqj?pwd=cf24#cf24">蓝奏云</a>   密码: <code>cf24</code></h3>
-]]></content>
-      <categories>
-        <category>应用推荐</category>
-      </categories>
-      <tags>
-        <tag>Android</tag>
-        <tag>app</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>E5开发者计划续订</title>
-    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
-    <content><![CDATA[<p>E5开发者计划续订E5开发者计划续订</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Microsoft 365</tag>
-        <tag>E5开发</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git安装与配置</title>
     <url>/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
@@ -102,6 +71,19 @@
       <tags>
         <tag>教程</tag>
         <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>E5开发者计划续订</title>
+    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
+    <content><![CDATA[<p>E5开发者计划续订E5开发者计划续订</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Microsoft 365</tag>
+        <tag>E5开发</tag>
       </tags>
   </entry>
   <entry>
@@ -243,19 +225,6 @@
       </tags>
   </entry>
   <entry>
-    <title>MacOS应用推荐</title>
-    <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
-]]></content>
-      <categories>
-        <category>应用推荐</category>
-      </categories>
-      <tags>
-        <tag>app</tag>
-        <tag>MacOS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown笔记</title>
     <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
@@ -315,16 +284,34 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows应用推荐</title>
-    <url>/2023/05/02/Windows%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>Windows应用推荐Windows应用推荐</p>
+    <title>MacOS应用推荐</title>
+    <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
+]]></content>
+      <categories>
+        <category>应用推荐</category>
+      </categories>
+      <tags>
+        <tag>MacOS</tag>
+        <tag>app</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Android应用推荐</title>
+    <url>/2023/04/21/Android%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<h2 id="1-你跳跳"><a class="markdownIt-Anchor" href="#1-你跳跳"></a> 1、你跳跳</h2>
+<p><strong>帮助我们自动跳过一些app开屏烦人的界面，如广告</strong><br />
+<strong>该应用不会无度索取用户权限，是一款良心app</strong><br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-21/turnonltt.gif" alt="" /></p>
+<h3 id="官网地址李跳跳"><a class="markdownIt-Anchor" href="#官网地址李跳跳"></a> 官网地址：<a href="https://litiaotiao.cn/">李跳跳</a></h3>
+<h3 id="高速下载蓝奏云-密码-cf24"><a class="markdownIt-Anchor" href="#高速下载蓝奏云-密码-cf24"></a> 高速下载：<a href="https://wwjw.lanzoum.com/iKBU80tn5pqj?pwd=cf24#cf24">蓝奏云</a>   密码: <code>cf24</code></h3>
 ]]></content>
       <categories>
         <category>应用推荐</category>
       </categories>
       <tags>
         <tag>app</tag>
-        <tag>Windows</tag>
+        <tag>Android</tag>
       </tags>
   </entry>
   <entry>
@@ -349,31 +336,16 @@
 <p>或者</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure>
 <p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E5%90%8E%E7%8A%B6%E6%80%81.png" alt="" /></p>
-<h3 id="5提交说明"><a class="markdownIt-Anchor" href="#5提交说明"></a> 5.提交说明</h3>
+<h3 id="5提交注释"><a class="markdownIt-Anchor" href="#5提交注释"></a> 5.提交注释</h3>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit -m &#x27;内容&#x27;</span><br></pre></td></tr></table></figure>
-<p>1.初始化仓库：git init</p>
-<p>2.配置签名：① git config <a href="http://user.name">user.name</a> “Zhang3”  ② git config user.email “<a href="mailto:zhang3@163.com">zhang3@163.com</a>”<br />
-–签名配置完成后，可以隐藏目录下找到config，查看或编辑签名。假如工作中又来了一个项目，但这个项目的账密想签别的名字。可以在工程下修改。<br />
-但一般在公司中多个项目都一样的配置就没必要放在隐藏目录下，可直接配全局的。例如：git config --global <a href="http://user.name">user.name</a> “zhang3”<br />
-全局配置默认路径为：C/Users/Adminnistator/.gitconfig  优先用项目中的配置，如果项目中没有，则用全局的配置。</p>
-<p>3.查看状态：git status<br />
-–确认目录下有哪些代码待提交或没有提交，下面显示成红色没有提交。</p>
-<p>4.添加文件：git add .<br />
-–git add .(注意这个&quot;.“，是有空格的，”.&quot;代表当前目录下的全部文件都提交）<br />
-–也可输入:git add src ,即提交了src，此src为文件夹。<br />
-提交后，则会变绿。变绿代表进入了”暂存区“，并没有提交到服务器上。</p>
-<p>5.提交文件：git commit<br />
-–提交至服务器。将”暂存区“（绿色的内容）提交至服务器。<br />
-–git commit -m “双引号中间是提交代码时写的备注”<br />
-–注意：如果在提交时提示<br />
-#Please enter the commit message for your changes. Lines starting<br />
-#with ‘#’ will be ignored, and an empty message aborts the commit.<br />
-则修改提交命令为： git commit -m “注释”</p>
-<p>6.再次查看状态：git status<br />
-–确认暂储区没有待提交的内容。</p>
-<p>7.推送本地代码到GitHub仓库：git push -u origin master<br />
-–此步的前提是已经在GitHub上创建好了Git仓库，否则得先创建仓库，再进行此步，具体操作见步骤三</p>
-<p>8.（2022-03-25 更新）在GitHub上修改代码保存后，更新修改后的代码到本地，需执行命令：git pull origin</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E6%B3%A8%E9%87%8A.png" alt="" /></p>
+<h3 id="6将本地-文件与github仓库关联"><a class="markdownIt-Anchor" href="#6将本地-文件与github仓库关联"></a> 6.将本地 文件与GitHub仓库关联</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git remote add origin 仓库链接</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%9C%AC%E5%9C%B0%E5%85%B3%E8%81%94GitHub%E4%BB%93%E5%BA%93.png" alt="" /></p>
+<h3 id="7推送到github远程仓库"><a class="markdownIt-Anchor" href="#7推送到github远程仓库"></a> 7.推送到GitHub远程仓库</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E4%B8%8A%E4%BC%A0%E6%88%90%E5%8A%9F.png" alt="" /></p>
+<p><strong>至此教程完成，这只是一个关于Git和GitHub的初步应用，实际上它们还有很多强大的功能需要你去探索</strong></p>
 ]]></content>
       <categories>
         <category>教程</category>
@@ -381,6 +353,19 @@
       <tags>
         <tag>Git</tag>
         <tag>GitHub</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows应用推荐</title>
+    <url>/2023/05/02/Windows%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>Windows应用推荐Windows应用推荐</p>
+]]></content>
+      <categories>
+        <category>应用推荐</category>
+      </categories>
+      <tags>
+        <tag>app</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
