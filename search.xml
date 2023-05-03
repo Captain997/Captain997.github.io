@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>E5开发者计划续订</title>
-    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
-    <content><![CDATA[<p>E5开发者计划续订E5开发者计划续订</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Microsoft 365</tag>
-        <tag>E5开发</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Android应用推荐</title>
     <url>/2023/04/21/Android%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<h2 id="1-你跳跳"><a class="markdownIt-Anchor" href="#1-你跳跳"></a> 1、你跳跳</h2>
@@ -32,148 +19,29 @@
       </tags>
   </entry>
   <entry>
-    <title>Git安装与配置</title>
-    <url>/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
-<h3 id="1下载-git"><a class="markdownIt-Anchor" href="#1下载-git"></a> 1.下载 Git</h3>
-<p>根据操作系统类型下载对应版本</p>
-<p><a href="https://git-scm.com/download">Git官网下载</a><br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/1.png" alt="" /></p>
-<h3 id="2安装"><a class="markdownIt-Anchor" href="#2安装"></a> 2.安装</h3>
-<p>大部分人用Windows，固以Windows为例<br />
-双击打开下载好的  Git-2.40.1-64-bit<br />
-默认路径，可按需修改<br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/2.png" alt="" /></p>
-<h3 id="3安装选项"><a class="markdownIt-Anchor" href="#3安装选项"></a> 3.安装选项</h3>
-<p>如果不明确自己的需求，建议默认即可<br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/3.png" alt="" /></p>
-<h3 id="4默认分支配置"><a class="markdownIt-Anchor" href="#4默认分支配置"></a> 4.默认分支配置</h3>
-<p>Git默认的是master分支，但目前GitHub创建的分支默认已经改成main<br />
-所以建议将Git的默认分支设置成main<br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/4.png" alt="" /><br />
-接下来无脑下一步即可</p>
-<h3 id="5安装成功"><a class="markdownIt-Anchor" href="#5安装成功"></a> 5.安装成功</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/5.png" alt="" /></p>
-<h2 id="验证git是否安装成功"><a class="markdownIt-Anchor" href="#验证git是否安装成功"></a> 验证Git是否安装成功</h2>
-<p>在PowerShell或CMD运行git --version查看Git版本</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/git%E7%89%88%E6%9C%AC.png" alt="" /></p>
-<h2 id="配置git关联到远端仓库"><a class="markdownIt-Anchor" href="#配置git关联到远端仓库"></a> 配置Git关联到远端仓库</h2>
-<p>这里主要介绍免费公开的代码托管平台，自建平台请以实际为准<br />
-<strong>GitHub：全球最大的代码托管网站和开源社区</strong><br />
-<strong>Gitee（码云）：开源中国于2013年推出的基于Git的代码托管和协作开发平台也是目前是中国大陆规模最大的代码托管平台</strong></p>
-<p><strong>这里以GitHub为例，gitee也大差不差的步骤</strong></p>
-<h3 id="1打开git-bash"><a class="markdownIt-Anchor" href="#1打开git-bash"></a> 1.打开Git Bash</h3>
-<p><strong>右键打开Git Bash Here</strong><br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/GitBash.png" alt="" /></p>
-<h3 id="2设置github用户名-邮箱"><a class="markdownIt-Anchor" href="#2设置github用户名-邮箱"></a> 2.设置GitHub用户名、邮箱</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub账户名字&quot;</span><br></pre></td></tr></table></figure>
-<p><strong>回车，接着输入</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;你的GitHub绑定邮箱&quot;</span><br></pre></td></tr></table></figure>
-<p><strong>回车确认</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/git%E4%BF%A1%E6%81%AF%E7%BB%91%E5%AE%9A2.png" alt="" /></p>
-<h3 id="3生成ssh公钥"><a class="markdownIt-Anchor" href="#3生成ssh公钥"></a> 3.生成ssh公钥</h3>
-<p>生成公钥</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub绑定邮箱&quot;</span><br></pre></td></tr></table></figure>
-<p>输入后按3次回车</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/ssh%E5%85%AC%E9%92%A5%E5%8C%992.png" alt="" /></p>
-<h3 id="4验证配置是否成功"><a class="markdownIt-Anchor" href="#4验证配置是否成功"></a> 4.验证配置是否成功</h3>
-<p>依次输入下列命令，如若出现设置信息即配置成功</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E9%85%8D%E7%BD%AE%E9%AA%8C%E8%AF%81.png" alt="" /></p>
-<h3 id="5在github添加生成的公钥"><a class="markdownIt-Anchor" href="#5在github添加生成的公钥"></a> 5.在GitHub添加生成的公钥</h3>
-<p>登录GitHub点击右上角的头像</p>
-<p>依次点击Settings --&gt; SSH and GPG keys --&gt; New SSH key</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/giyhubaddsshkeys.png" alt="" /></p>
-<h3 id="6添加公钥"><a class="markdownIt-Anchor" href="#6添加公钥"></a> 6.添加公钥</h3>
-<p>在路径C:\Users\xxxx(用户名)\下有名为.ssh的文件夹</p>
-<p>进入.ssh文件夹，用记事本打开<strong>id_rsa.pub</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%B7%BB%E5%8A%A0%E5%85%AC%E9%92%A5.png" alt="" /></p>
-<h3 id="7连接验证"><a class="markdownIt-Anchor" href="#7连接验证"></a> 7.连接验证</h3>
-<p>输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<p><strong>成功结果如下</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E8%BF%9E%E6%8E%A5%E9%AA%8C%E8%AF%81.png" alt="" /></p>
-<p><strong>至此已安装和配置完成～</strong></p>
+    <title>E5开发者计划续订</title>
+    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
+    <content><![CDATA[<p>E5开发者计划续订E5开发者计划续订</p>
 ]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>教程</tag>
-        <tag>Git</tag>
+        <tag>Microsoft 365</tag>
+        <tag>E5开发</tag>
       </tags>
   </entry>
   <entry>
-    <title>Markdown笔记</title>
-    <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
-<h2 id="1标题"><a class="markdownIt-Anchor" href="#1标题"></a> 1.标题</h2>
-<h1 id="一级标题-写法-标题名"><a class="markdownIt-Anchor" href="#一级标题-写法-标题名"></a> 一级标题    写法:  # 标题名</h1>
-<h2 id="二级标题-写法-标题名"><a class="markdownIt-Anchor" href="#二级标题-写法-标题名"></a> 二级标题    写法:  ## 标题名</h2>
-<h3 id="三级标题-写法-标题名"><a class="markdownIt-Anchor" href="#三级标题-写法-标题名"></a> 三级标题    写法:  ### 标题名</h3>
-<h2 id="2空格-写法-nbsp空格"><a class="markdownIt-Anchor" href="#2空格-写法-nbsp空格"></a> 2.空格    写法:  &amp;nbsp+空格;</h2>
-<p>    空两格效果</p>
-<p>测试测试测试测试测试测试测试</p>
-<h1 id="typora快捷键"><a class="markdownIt-Anchor" href="#typora快捷键"></a> Typora快捷键</h1>
-<p>1.新建：Ctrl+N<br />
-2.打开：Ctrl+O<br />
-3.打印：Ctrl+P<br />
-4.保存：Ctrl+S<br />
-5.另存为：Ctrl+Shift+S<br />
-6.偏好设置：Ctrl+,<br />
-7.关闭：Ctrl+W<br />
-8.查找：Ctrl+F</p>
-<p>一级标题：⌘1 (command + 1)<br />
-二级标题：⌘2 (command + 2)<br />
-三级标题：⌘3 (command + 3)</p>
-<p>表格：⌥⌘T (option + command + T)<br />
-代码块：⌥⌘C (option + command + C)<br />
-公式块：⌥⌘B (option + command + B)</p>
-<p>引用：⌥⌘Q (option + command + Q)<br />
-有序列表：⌥⌘O (option + command + O)<br />
-无序列表：⌥⌘U (option + command + U)</p>
-<p>任务列表：⌥⌘X (option + command + X)<br />
-列表缩进：<br />
-​ 增加缩进：⌘] ( command + ])<br />
-​ 减少缩进：⌘[ ( command + [)</p>
-<p>链接引用：⌥⌘L (option + command + L)<br />
-脚注：⌥⌘R (option + command + R)</p>
-<p>水平分割线：⇧⌘- (shift + command + -)</p>
-<p>加粗：⌘B (command + B)<br />
-斜体：⌘I (command + I)<br />
-下划线：⌘U (command + U)</p>
-<p>代码：⇧⌘<code>(shift + command +</code>)</p>
-<p>内联公式：⌃M (control + M)<br />
-删除线：⌃~ (control + ~)<br />
-注释：⌃- (control + -)</p>
-<p>超链接:⌘K (command + K)<br />
-图像：⌃⌘I (control + command + U)<br />
-清除样式：⌘\ (command + )</p>
-<p>显示/隐藏侧边栏：⇧⌘L (shift + command + L)<br />
-大纲视图：⌃⌘1 (control + command + 1)<br />
-文档列表视图：⌃⌘2 (control + command +2)<br />
-文件树视图：⌃⌘3 (control + command + 3)</p>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows应用推荐</title>
-    <url>/2023/05/02/Windows%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>Windows应用推荐Windows应用推荐</p>
+    <title>MacOS应用推荐</title>
+    <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
 ]]></content>
       <categories>
         <category>应用推荐</category>
       </categories>
       <tags>
         <tag>app</tag>
-        <tag>Windows</tag>
+        <tag>MacOS</tag>
       </tags>
   </entry>
   <entry>
@@ -322,16 +190,148 @@
       </tags>
   </entry>
   <entry>
-    <title>MacOS应用推荐</title>
-    <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
+    <title>Markdown笔记</title>
+    <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
+<h2 id="1标题"><a class="markdownIt-Anchor" href="#1标题"></a> 1.标题</h2>
+<h1 id="一级标题-写法-标题名"><a class="markdownIt-Anchor" href="#一级标题-写法-标题名"></a> 一级标题    写法:  # 标题名</h1>
+<h2 id="二级标题-写法-标题名"><a class="markdownIt-Anchor" href="#二级标题-写法-标题名"></a> 二级标题    写法:  ## 标题名</h2>
+<h3 id="三级标题-写法-标题名"><a class="markdownIt-Anchor" href="#三级标题-写法-标题名"></a> 三级标题    写法:  ### 标题名</h3>
+<h2 id="2空格-写法-nbsp空格"><a class="markdownIt-Anchor" href="#2空格-写法-nbsp空格"></a> 2.空格    写法:  &amp;nbsp+空格;</h2>
+<p>    空两格效果</p>
+<p>测试测试测试测试测试测试测试</p>
+<h1 id="typora快捷键"><a class="markdownIt-Anchor" href="#typora快捷键"></a> Typora快捷键</h1>
+<p>1.新建：Ctrl+N<br />
+2.打开：Ctrl+O<br />
+3.打印：Ctrl+P<br />
+4.保存：Ctrl+S<br />
+5.另存为：Ctrl+Shift+S<br />
+6.偏好设置：Ctrl+,<br />
+7.关闭：Ctrl+W<br />
+8.查找：Ctrl+F</p>
+<p>一级标题：⌘1 (command + 1)<br />
+二级标题：⌘2 (command + 2)<br />
+三级标题：⌘3 (command + 3)</p>
+<p>表格：⌥⌘T (option + command + T)<br />
+代码块：⌥⌘C (option + command + C)<br />
+公式块：⌥⌘B (option + command + B)</p>
+<p>引用：⌥⌘Q (option + command + Q)<br />
+有序列表：⌥⌘O (option + command + O)<br />
+无序列表：⌥⌘U (option + command + U)</p>
+<p>任务列表：⌥⌘X (option + command + X)<br />
+列表缩进：<br />
+​ 增加缩进：⌘] ( command + ])<br />
+​ 减少缩进：⌘[ ( command + [)</p>
+<p>链接引用：⌥⌘L (option + command + L)<br />
+脚注：⌥⌘R (option + command + R)</p>
+<p>水平分割线：⇧⌘- (shift + command + -)</p>
+<p>加粗：⌘B (command + B)<br />
+斜体：⌘I (command + I)<br />
+下划线：⌘U (command + U)</p>
+<p>代码：⇧⌘<code>(shift + command +</code>)</p>
+<p>内联公式：⌃M (control + M)<br />
+删除线：⌃~ (control + ~)<br />
+注释：⌃- (control + -)</p>
+<p>超链接:⌘K (command + K)<br />
+图像：⌃⌘I (control + command + U)<br />
+清除样式：⌘\ (command + )</p>
+<p>显示/隐藏侧边栏：⇧⌘L (shift + command + L)<br />
+大纲视图：⌃⌘1 (control + command + 1)<br />
+文档列表视图：⌃⌘2 (control + command +2)<br />
+文件树视图：⌃⌘3 (control + command + 3)</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git安装与配置</title>
+    <url>/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
+<h3 id="1下载-git"><a class="markdownIt-Anchor" href="#1下载-git"></a> 1.下载 Git</h3>
+<p>根据操作系统类型下载对应版本</p>
+<p><a href="https://git-scm.com/download">Git官网下载</a><br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/1.png" alt="" /></p>
+<h3 id="2安装"><a class="markdownIt-Anchor" href="#2安装"></a> 2.安装</h3>
+<p>大部分人用Windows，固以Windows为例<br />
+双击打开下载好的  Git-2.40.1-64-bit<br />
+默认路径，可按需修改<br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/2.png" alt="" /></p>
+<h3 id="3安装选项"><a class="markdownIt-Anchor" href="#3安装选项"></a> 3.安装选项</h3>
+<p>如果不明确自己的需求，建议默认即可<br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/3.png" alt="" /></p>
+<h3 id="4默认分支配置"><a class="markdownIt-Anchor" href="#4默认分支配置"></a> 4.默认分支配置</h3>
+<p>Git默认的是master分支，但目前GitHub创建的分支默认已经改成main<br />
+所以建议将Git的默认分支设置成main<br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/4.png" alt="" /><br />
+接下来无脑下一步即可</p>
+<h3 id="5安装成功"><a class="markdownIt-Anchor" href="#5安装成功"></a> 5.安装成功</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/5.png" alt="" /></p>
+<h2 id="验证git是否安装成功"><a class="markdownIt-Anchor" href="#验证git是否安装成功"></a> 验证Git是否安装成功</h2>
+<p>在PowerShell或CMD运行git --version查看Git版本</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/git%E7%89%88%E6%9C%AC.png" alt="" /></p>
+<h2 id="配置git关联到远端仓库"><a class="markdownIt-Anchor" href="#配置git关联到远端仓库"></a> 配置Git关联到远端仓库</h2>
+<p>这里主要介绍免费公开的代码托管平台，自建平台请以实际为准<br />
+<strong>GitHub：全球最大的代码托管网站和开源社区</strong><br />
+<strong>Gitee（码云）：开源中国于2013年推出的基于Git的代码托管和协作开发平台也是目前是中国大陆规模最大的代码托管平台</strong></p>
+<p><strong>这里以GitHub为例，gitee也大差不差的步骤</strong></p>
+<h3 id="1打开git-bash"><a class="markdownIt-Anchor" href="#1打开git-bash"></a> 1.打开Git Bash</h3>
+<p><strong>右键打开Git Bash Here</strong><br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/GitBash.png" alt="" /></p>
+<h3 id="2设置github用户名-邮箱"><a class="markdownIt-Anchor" href="#2设置github用户名-邮箱"></a> 2.设置GitHub用户名、邮箱</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub账户名字&quot;</span><br></pre></td></tr></table></figure>
+<p><strong>回车，接着输入</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;你的GitHub绑定邮箱&quot;</span><br></pre></td></tr></table></figure>
+<p><strong>回车确认</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/git%E4%BF%A1%E6%81%AF%E7%BB%91%E5%AE%9A2.png" alt="" /></p>
+<h3 id="3生成ssh公钥"><a class="markdownIt-Anchor" href="#3生成ssh公钥"></a> 3.生成ssh公钥</h3>
+<p>生成公钥</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub绑定邮箱&quot;</span><br></pre></td></tr></table></figure>
+<p>输入后按3次回车</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/ssh%E5%85%AC%E9%92%A5%E5%8C%992.png" alt="" /></p>
+<h3 id="4验证配置是否成功"><a class="markdownIt-Anchor" href="#4验证配置是否成功"></a> 4.验证配置是否成功</h3>
+<p>依次输入下列命令，如若出现设置信息即配置成功</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E9%85%8D%E7%BD%AE%E9%AA%8C%E8%AF%81.png" alt="" /></p>
+<h3 id="5在github添加生成的公钥"><a class="markdownIt-Anchor" href="#5在github添加生成的公钥"></a> 5.在GitHub添加生成的公钥</h3>
+<p>登录GitHub点击右上角的头像</p>
+<p>依次点击Settings --&gt; SSH and GPG keys --&gt; New SSH key</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/giyhubaddsshkeys.png" alt="" /></p>
+<h3 id="6添加公钥"><a class="markdownIt-Anchor" href="#6添加公钥"></a> 6.添加公钥</h3>
+<p>在路径C:\Users\xxxx(用户名)\下有名为.ssh的文件夹</p>
+<p>进入.ssh文件夹，用记事本打开<strong>id_rsa.pub</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%B7%BB%E5%8A%A0%E5%85%AC%E9%92%A5.png" alt="" /></p>
+<h3 id="7连接验证"><a class="markdownIt-Anchor" href="#7连接验证"></a> 7.连接验证</h3>
+<p>输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p><strong>成功结果如下</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E8%BF%9E%E6%8E%A5%E9%AA%8C%E8%AF%81.png" alt="" /></p>
+<p><strong>至此已安装和配置完成～</strong></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows应用推荐</title>
+    <url>/2023/05/02/Windows%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>Windows应用推荐Windows应用推荐</p>
 ]]></content>
       <categories>
         <category>应用推荐</category>
       </categories>
       <tags>
         <tag>app</tag>
-        <tag>MacOS</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -389,6 +389,7 @@ Ubuntu<a href="https://ubuntu.com/download/desktop">官网下载</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \</span><br><span class="line">bzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib \</span><br><span class="line">git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libglib2.0-dev libgmp3-dev libltdl-dev \</span><br><span class="line">libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libreadline-dev libssl-dev libtool lrzsz \</span><br><span class="line">mkisofs msmtp nano ninja-build p7zip p7zip-full patch pkgconf python2.7 python3 python3-pip libpython3-dev qemu-utils \</span><br><span class="line">rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev</span><br></pre></td></tr></table></figure>
 <h2 id="首次编译"><a class="markdownIt-Anchor" href="#首次编译"></a> 首次编译</h2>
 <p>编译在普通用户模式下编译，在root模式下会有蜜汁问题<br />
+<font color=#ea00ff>编译在普通用户模式下编译，在root模式下会有蜜汁问题</font><br />
 OpenWrt源码有不同的分支，它们都有属于自己的特色，具体差异不在这赘述<br />
 1.<a href="https://github.com/openwrt/openwrt">OpenWrt官方</a><br />
 2.<a href="https://github.com/coolsnowwolf/lede">LEDE</a><br />
