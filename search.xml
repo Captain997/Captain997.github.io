@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>E5开发者计划续订</title>
+    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
+    <content><![CDATA[<p>E5开发者计划续订E5开发者计划续订</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Microsoft 365</tag>
+        <tag>E5开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Android应用推荐</title>
+    <url>/2023/04/21/Android%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<h2 id="1-你跳跳"><a class="markdownIt-Anchor" href="#1-你跳跳"></a> 1、你跳跳</h2>
+<p><strong>帮助我们自动跳过一些app开屏烦人的界面，如广告</strong><br />
+<strong>该应用不会无度索取用户权限，是一款良心app</strong><br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-21/turnonltt.gif" alt="" /></p>
+<h3 id="官网地址李跳跳"><a class="markdownIt-Anchor" href="#官网地址李跳跳"></a> 官网地址：<a href="https://litiaotiao.cn/">李跳跳</a></h3>
+<h3 id="高速下载蓝奏云-密码-cf24"><a class="markdownIt-Anchor" href="#高速下载蓝奏云-密码-cf24"></a> 高速下载：<a href="https://wwjw.lanzoum.com/iKBU80tn5pqj?pwd=cf24#cf24">蓝奏云</a>   密码: <code>cf24</code></h3>
+]]></content>
+      <categories>
+        <category>应用推荐</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>app</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git安装与配置</title>
     <url>/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
@@ -74,21 +105,80 @@
       </tags>
   </entry>
   <entry>
-    <title>E5开发者计划续订</title>
-    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
-    <content><![CDATA[<p>E5开发者计划续订E5开发者计划续订</p>
+    <title>Markdown笔记</title>
+    <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
+<h2 id="1标题"><a class="markdownIt-Anchor" href="#1标题"></a> 1.标题</h2>
+<h1 id="一级标题-写法-标题名"><a class="markdownIt-Anchor" href="#一级标题-写法-标题名"></a> 一级标题    写法:  # 标题名</h1>
+<h2 id="二级标题-写法-标题名"><a class="markdownIt-Anchor" href="#二级标题-写法-标题名"></a> 二级标题    写法:  ## 标题名</h2>
+<h3 id="三级标题-写法-标题名"><a class="markdownIt-Anchor" href="#三级标题-写法-标题名"></a> 三级标题    写法:  ### 标题名</h3>
+<h2 id="2空格-写法-nbsp空格"><a class="markdownIt-Anchor" href="#2空格-写法-nbsp空格"></a> 2.空格    写法:  &amp;nbsp+空格;</h2>
+<p>    空两格效果</p>
+<p>测试测试测试测试测试测试测试</p>
+<h1 id="typora快捷键"><a class="markdownIt-Anchor" href="#typora快捷键"></a> Typora快捷键</h1>
+<p>1.新建：Ctrl+N<br />
+2.打开：Ctrl+O<br />
+3.打印：Ctrl+P<br />
+4.保存：Ctrl+S<br />
+5.另存为：Ctrl+Shift+S<br />
+6.偏好设置：Ctrl+,<br />
+7.关闭：Ctrl+W<br />
+8.查找：Ctrl+F</p>
+<p>一级标题：⌘1 (command + 1)<br />
+二级标题：⌘2 (command + 2)<br />
+三级标题：⌘3 (command + 3)</p>
+<p>表格：⌥⌘T (option + command + T)<br />
+代码块：⌥⌘C (option + command + C)<br />
+公式块：⌥⌘B (option + command + B)</p>
+<p>引用：⌥⌘Q (option + command + Q)<br />
+有序列表：⌥⌘O (option + command + O)<br />
+无序列表：⌥⌘U (option + command + U)</p>
+<p>任务列表：⌥⌘X (option + command + X)<br />
+列表缩进：<br />
+​ 增加缩进：⌘] ( command + ])<br />
+​ 减少缩进：⌘[ ( command + [)</p>
+<p>链接引用：⌥⌘L (option + command + L)<br />
+脚注：⌥⌘R (option + command + R)</p>
+<p>水平分割线：⇧⌘- (shift + command + -)</p>
+<p>加粗：⌘B (command + B)<br />
+斜体：⌘I (command + I)<br />
+下划线：⌘U (command + U)</p>
+<p>代码：⇧⌘<code>(shift + command +</code>)</p>
+<p>内联公式：⌃M (control + M)<br />
+删除线：⌃~ (control + ~)<br />
+注释：⌃- (control + -)</p>
+<p>超链接:⌘K (command + K)<br />
+图像：⌃⌘I (control + command + U)<br />
+清除样式：⌘\ (command + )</p>
+<p>显示/隐藏侧边栏：⇧⌘L (shift + command + L)<br />
+大纲视图：⌃⌘1 (control + command + 1)<br />
+文档列表视图：⌃⌘2 (control + command +2)<br />
+文件树视图：⌃⌘3 (control + command + 3)</p>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>笔记</category>
       </categories>
       <tags>
-        <tag>Microsoft 365</tag>
-        <tag>E5开发</tag>
+        <tag>Markdown</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
-    <title>Hexo基础命令</title>
-    <url>/2023/04/19/Hexo%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/</url>
+    <title>Windows应用推荐</title>
+    <url>/2023/05/02/Windows%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>Windows应用推荐Windows应用推荐</p>
+]]></content>
+      <categories>
+        <category>应用推荐</category>
+      </categories>
+      <tags>
+        <tag>app</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo写作基础</title>
+    <url>/2023/04/19/Hexo%E5%86%99%E4%BD%9C%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<h2 id="️基础写作"><a class="markdownIt-Anchor" href="#️基础写作"></a> ✏️基础写作</h2>
 <p>1、创建新文章</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;文章名&quot;</span><br></pre></td></tr></table></figure>
@@ -211,6 +301,13 @@
 </tr>
 </tbody>
 </table>
+<h3 id="categories分类标签应用"><a class="markdownIt-Anchor" href="#categories分类标签应用"></a> categories分类标签应用</h3>
+<h3 id="子分类"><a class="markdownIt-Anchor" href="#子分类"></a> <strong>子分类</strong></h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">categories:</span><br><span class="line">  - 一级分类</span><br><span class="line">  - 子级分类</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="多个分类"><a class="markdownIt-Anchor" href="#多个分类"></a> <strong>多个分类</strong></h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">categories:</span><br><span class="line">  - [分类一]</span><br><span class="line">  - [分类二]</span><br></pre></td></tr></table></figure>
+<p><strong>将文章分入不同的一级分类和二级分类</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">categories:</span><br><span class="line">  - [分类一,子级分类]</span><br><span class="line">  - [分类二]</span><br></pre></td></tr></table></figure>
 <h2 id="️系统相关"><a class="markdownIt-Anchor" href="#️系统相关"></a> ⚙️系统相关</h2>
 <p>1、查看已装插件</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm ls --depth 0</span><br></pre></td></tr></table></figure>
@@ -225,65 +322,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown笔记</title>
-    <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
-<h2 id="1标题"><a class="markdownIt-Anchor" href="#1标题"></a> 1.标题</h2>
-<h1 id="一级标题-写法-标题名"><a class="markdownIt-Anchor" href="#一级标题-写法-标题名"></a> 一级标题    写法:  # 标题名</h1>
-<h2 id="二级标题-写法-标题名"><a class="markdownIt-Anchor" href="#二级标题-写法-标题名"></a> 二级标题    写法:  ## 标题名</h2>
-<h3 id="三级标题-写法-标题名"><a class="markdownIt-Anchor" href="#三级标题-写法-标题名"></a> 三级标题    写法:  ### 标题名</h3>
-<h2 id="2空格-写法-nbsp空格"><a class="markdownIt-Anchor" href="#2空格-写法-nbsp空格"></a> 2.空格    写法:  &amp;nbsp+空格;</h2>
-<p>    空两格效果</p>
-<p>测试测试测试测试测试测试测试</p>
-<h1 id="typora快捷键"><a class="markdownIt-Anchor" href="#typora快捷键"></a> Typora快捷键</h1>
-<p>1.新建：Ctrl+N<br />
-2.打开：Ctrl+O<br />
-3.打印：Ctrl+P<br />
-4.保存：Ctrl+S<br />
-5.另存为：Ctrl+Shift+S<br />
-6.偏好设置：Ctrl+,<br />
-7.关闭：Ctrl+W<br />
-8.查找：Ctrl+F</p>
-<p>一级标题：⌘1 (command + 1)<br />
-二级标题：⌘2 (command + 2)<br />
-三级标题：⌘3 (command + 3)</p>
-<p>表格：⌥⌘T (option + command + T)<br />
-代码块：⌥⌘C (option + command + C)<br />
-公式块：⌥⌘B (option + command + B)</p>
-<p>引用：⌥⌘Q (option + command + Q)<br />
-有序列表：⌥⌘O (option + command + O)<br />
-无序列表：⌥⌘U (option + command + U)</p>
-<p>任务列表：⌥⌘X (option + command + X)<br />
-列表缩进：<br />
-​ 增加缩进：⌘] ( command + ])<br />
-​ 减少缩进：⌘[ ( command + [)</p>
-<p>链接引用：⌥⌘L (option + command + L)<br />
-脚注：⌥⌘R (option + command + R)</p>
-<p>水平分割线：⇧⌘- (shift + command + -)</p>
-<p>加粗：⌘B (command + B)<br />
-斜体：⌘I (command + I)<br />
-下划线：⌘U (command + U)</p>
-<p>代码：⇧⌘<code>(shift + command +</code>)</p>
-<p>内联公式：⌃M (control + M)<br />
-删除线：⌃~ (control + ~)<br />
-注释：⌃- (control + -)</p>
-<p>超链接:⌘K (command + K)<br />
-图像：⌃⌘I (control + command + U)<br />
-清除样式：⌘\ (command + )</p>
-<p>显示/隐藏侧边栏：⇧⌘L (shift + command + L)<br />
-大纲视图：⌃⌘1 (control + command + 1)<br />
-文档列表视图：⌃⌘2 (control + command +2)<br />
-文件树视图：⌃⌘3 (control + command + 3)</p>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MacOS应用推荐</title>
     <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
@@ -292,26 +330,8 @@
         <category>应用推荐</category>
       </categories>
       <tags>
+        <tag>app</tag>
         <tag>MacOS</tag>
-        <tag>app</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Android应用推荐</title>
-    <url>/2023/04/21/Android%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<h2 id="1-你跳跳"><a class="markdownIt-Anchor" href="#1-你跳跳"></a> 1、你跳跳</h2>
-<p><strong>帮助我们自动跳过一些app开屏烦人的界面，如广告</strong><br />
-<strong>该应用不会无度索取用户权限，是一款良心app</strong><br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-21/turnonltt.gif" alt="" /></p>
-<h3 id="官网地址李跳跳"><a class="markdownIt-Anchor" href="#官网地址李跳跳"></a> 官网地址：<a href="https://litiaotiao.cn/">李跳跳</a></h3>
-<h3 id="高速下载蓝奏云-密码-cf24"><a class="markdownIt-Anchor" href="#高速下载蓝奏云-密码-cf24"></a> 高速下载：<a href="https://wwjw.lanzoum.com/iKBU80tn5pqj?pwd=cf24#cf24">蓝奏云</a>   密码: <code>cf24</code></h3>
-]]></content>
-      <categories>
-        <category>应用推荐</category>
-      </categories>
-      <tags>
-        <tag>app</tag>
-        <tag>Android</tag>
       </tags>
   </entry>
   <entry>
@@ -356,22 +376,105 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows应用推荐</title>
-    <url>/2023/05/02/Windows%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>Windows应用推荐Windows应用推荐</p>
-]]></content>
-      <categories>
-        <category>应用推荐</category>
-      </categories>
-      <tags>
-        <tag>app</tag>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>自编译OpenWrt固件</title>
     <url>/2023/04/20/%E8%87%AA%E7%BC%96%E8%AF%91OpenWrt%E5%9B%BA%E4%BB%B6/</url>
-    <content><![CDATA[<p>文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试文章封面测试</p>
+    <content><![CDATA[<h2 id="环境搭建"><a class="markdownIt-Anchor" href="#环境搭建"></a> 环境搭建</h2>
+<h3 id="基础环境"><a class="markdownIt-Anchor" href="#基础环境"></a> 基础环境</h3>
+<p><strong>1、VMware虚拟机</strong><br />
+<strong>2、Ubuntu 22.04.2 LTS</strong><br />
+Ubuntu<a href="https://ubuntu.com/download/desktop">官网下载</a></p>
+<h3 id="ubuntu系统更新"><a class="markdownIt-Anchor" href="#ubuntu系统更新"></a> Ubuntu系统更新</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt update -y</span><br><span class="line">sudo apt full-upgrade -y</span><br></pre></td></tr></table></figure>
+<h3 id="安装编译依赖"><a class="markdownIt-Anchor" href="#安装编译依赖"></a> 安装编译依赖</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \</span><br><span class="line">bzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib \</span><br><span class="line">git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libglib2.0-dev libgmp3-dev libltdl-dev \</span><br><span class="line">libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libreadline-dev libssl-dev libtool lrzsz \</span><br><span class="line">mkisofs msmtp nano ninja-build p7zip p7zip-full patch pkgconf python2.7 python3 python3-pip libpython3-dev qemu-utils \</span><br><span class="line">rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev</span><br></pre></td></tr></table></figure>
+<h2 id="首次编译"><a class="markdownIt-Anchor" href="#首次编译"></a> 首次编译</h2>
+<p>编译在普通用户模式下编译，在root模式下会有蜜汁问题<br />
+OpenWrt源码有不同的分支，它们都有属于自己的特色，具体差异不在这赘述<br />
+1.<a href="https://github.com/openwrt/openwrt">OpenWrt官方</a><br />
+2.<a href="https://github.com/coolsnowwolf/lede">LEDE</a><br />
+3.<a href="https://github.com/Lienol/openwrt">Lienol</a><br />
+4.<a href="https://github.com/immortalwrt/immortalwrt">immortalwrt</a></p>
+<p>这里以LEDE源码为例</p>
+<h3 id="拉取lede-源码"><a class="markdownIt-Anchor" href="#拉取lede-源码"></a> 拉取LEDE 源码</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/coolsnowwolf/lede</span><br></pre></td></tr></table></figure>
+<h3 id="进入lede"><a class="markdownIt-Anchor" href="#进入lede"></a> 进入lede</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd lede</span><br></pre></td></tr></table></figure>
+<h3 id="添加插件源"><a class="markdownIt-Anchor" href="#添加插件源"></a> 添加插件源</h3>
+<p>之所以选lede是因为大佬默认已经集成了很多常用插件，但是如果有小众需求可以自己将插件源添加进来,在lede根目录执行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vim feeds.conf.default</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-20/%E6%8F%92%E4%BB%B6%E6%BA%90.png" alt="" /><br />
+<strong>将需要启用的插件源去掉“#”即可，也可自行加入第三方的插件源</strong></p>
+<h3 id="插件更新与安装"><a class="markdownIt-Anchor" href="#插件更新与安装"></a> 插件更新与安装</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">./scripts/feeds clean</span><br><span class="line">./scripts/feeds update -a</span><br><span class="line">./scripts/feeds install -a</span><br></pre></td></tr></table></figure>
+<h3 id="个性化配置可选非必要"><a class="markdownIt-Anchor" href="#个性化配置可选非必要"></a> 个性化配置(可选，非必要)</h3>
+<p>1.修改默认IP为 10.1.1.1</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sed -i &#x27;s/192.168.1.1/10.1.1.1/g&#x27; package/base-files/files/bin/config_generate</span><br></pre></td></tr></table></figure>
+<p>2.修改默认主机名为 ABCD</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sed -i &#x27;/uci commit system/i\uci set system.@system[0].hostname=&#x27;ABCD&#x27;&#x27; package/lean/default-settings/files/zzz-default-settings</span><br></pre></td></tr></table></figure>
+<p>3.修改默认主题</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sed -i &quot;s/luci-theme-bootstrap/luci-theme-argon/g&quot; feeds/luci/collections/luci/Makefile</span><br></pre></td></tr></table></figure>
+<h3 id="生成配置"><a class="markdownIt-Anchor" href="#生成配置"></a> 生成配置</h3>
+<p>在lede根目录执行make menuconfig进入编译菜单</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">make menuconfig</span><br></pre></td></tr></table></figure>
+<h4 id="常用菜单说明"><a class="markdownIt-Anchor" href="#常用菜单说明"></a> 常用菜单说明</h4>
+<p><strong>1.选择 CPU 类型</strong><br />
+Target System (x86) --&gt; # 软路由选择 x86，硬路由根据型号厂家自行选择<br />
+Subtarget (x86_64) --&gt; # CPU 子选项<br />
+Target Profile (Generic x86/64) --&gt; # 厂家具体型号<br />
+<strong>2.设置镜像编译的格式（squashfs，ext4</strong>）<br />
+Target Images --&gt; # 默认 squashfs<br />
+<strong>3.添加较多插件时，为了避免空间不足，建议修改下面两项默认大小（x86/64）</strong><br />
+Target Images --&gt; (16) Kernel partition size (in MB) # 默认是16，建议修改为256<br />
+Target Images --&gt; (400) Root filesystem partition size (in MB) # 默认是400，建议修改为512<br />
+<strong>4.开启 IPv6 支持</strong><br />
+Extra packages --&gt; ipv6helper（选定这个后，下面几项会自动选择）<br />
+Network --&gt; odhcp6c<br />
+Network --&gt; odhcpd-ipv6only<br />
+LuCI --&gt; Protocols --&gt; luci-proto-ipv6<br />
+LuCI --&gt; Protocols --&gt; luci-proto-ppp<br />
+<strong>5.开启适用于 VMware 的 VMware Tools</strong><br />
+Utilities --&gt; open-vm-tools<br />
+Utilities --&gt; open-vm-tools-fuse<br />
+<strong>6.选择插件</strong><br />
+LuCI --&gt; Applications # 根据需要选择，* 代表编入固件，M 表示编译成模块或者IPK包，为空表示不编译<br />
+<strong>7.选择主题</strong><br />
+LuCI --&gt; Themes # 选择喜欢的主题，可以选多个</p>
+<h4 id="插件说明"><a class="markdownIt-Anchor" href="#插件说明"></a> 插件说明</h4>
+<p><a href="https://vvmi.net/archives/openwrtlist/">插件对照表</a></p>
+<h3 id="下载编译所需插件"><a class="markdownIt-Anchor" href="#下载编译所需插件"></a> 下载编译所需插件</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">make download -j8</span><br></pre></td></tr></table></figure>
+<h3 id="检查文件完整性"><a class="markdownIt-Anchor" href="#检查文件完整性"></a> 检查文件完整性</h3>
+<p>1.查找文件小于1k的文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">find dl -size -1024c -exec ls -l &#123;&#125; \;</span><br></pre></td></tr></table></figure>
+<p>2.删除小于1k的文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">find dl -size -1024c -exec rm -f &#123;&#125; \;</span><br></pre></td></tr></table></figure>
+<p>3.继续下载、检查步骤</p>
+<h3 id="编译"><a class="markdownIt-Anchor" href="#编译"></a> 编译</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">make V=s -j1</span><br></pre></td></tr></table></figure>
+<p>V=s表示开启详情，-j1表示编译线程，可根据实际调整<br />
+<strong>编译完成默认的编译输出路径为bin/targets，默认密码是password</strong></p>
+<h2 id="再次编译"><a class="markdownIt-Anchor" href="#再次编译"></a> 再次编译</h2>
+<h3 id="拉取最新lede源码"><a class="markdownIt-Anchor" href="#拉取最新lede源码"></a> 拉取最新lede源码</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd lede</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+<h3 id="更新-feeds-源中的插件"><a class="markdownIt-Anchor" href="#更新-feeds-源中的插件"></a> 更新 feeds 源中的插件</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">./scripts/feeds update -a</span><br><span class="line">./scripts/feeds install -a</span><br></pre></td></tr></table></figure>
+<h3 id="清除上一次编译文件和目录可选非必要"><a class="markdownIt-Anchor" href="#清除上一次编译文件和目录可选非必要"></a> 清除上一次编译文件和目录（可选，非必要）</h3>
+<p><strong>1.源码较大更新，删除 /bin 和 /build_dir 目录中的文件</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">make clean</span><br></pre></td></tr></table></figure>
+<p><strong>2.更换架构，删除 /bin 和 /build_dir 目录的中的文件（make clean），以及 /staging_dir、/toolchain、/tmp 和 /logs 中的文件</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">make dirclean</span><br></pre></td></tr></table></figure>
+<h3 id="如果需要重生成新配置"><a class="markdownIt-Anchor" href="#如果需要重生成新配置"></a> 如果需要重生成新配置</h3>
+<p><strong>1.清除临时文件和编译配置文件</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rm -rf ./tmp &amp;&amp; rm -rf .config</span><br></pre></td></tr></table></figure>
+<p><strong>2.执行2.7-2.9节内容</strong></p>
+<p><strong>至此教程结束～</strong></p>
 ]]></content>
+      <categories>
+        <category>教程</category>
+        <category>OpenWrt</category>
+      </categories>
+      <tags>
+        <tag>OpenWrt</tag>
+      </tags>
   </entry>
 </search>
