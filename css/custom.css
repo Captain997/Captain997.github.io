@@ -77,3 +77,24 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 #rightside_config i.fas.fa-cog.fa-spin {
     animation: fa-spin 5s linear infinite ;
 }
+
+/* bber轮播 */
+#bber-talk{background:var(--card-bg);color:var(--fontcolor);padding:0.6rem 1rem 0.5rem 1rem;border-radius:12px;cursor:auto;box-shadow:var(--card-box-shadow);display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;overflow:hidden;transition:all 0.3s;margin-bottom:-0.2rem;z-index: 10;position: relative;}
+#bber-talk:not(a){font-weight:bold;}
+#bber-talk svg{fill: currentColor;vertical-align: middle;display: inline;margin-right:5px;}
+#bber-talk .talk-list{margin: 0;padding: 0;max-height: 1.6rem;overflow: hidden;margin-bottom: -0.3rem;transition: all 1s ease-in-out;}
+#bber-talk .talk-list :hover{color: #49b1f5 !important;transition: all .15s ease-in-out;}
+#bber-talk .talk-list li.item a {cursor:pointer;}
+#bber-talk .talk-list li {list-style: none;width: 100%;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+
+
+/*嵌入bilibili视频*/
+/*哔哩哔哩视频适配*/
+.aspect-ratio {position: relative;width: 100%;height: 0;padding-bottom: 75%;margin: 3% auto;text-align: center;}      
+.aspect-ratio iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
