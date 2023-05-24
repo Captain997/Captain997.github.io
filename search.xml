@@ -5,9 +5,7 @@
     <url>/2023/05/04/AList%E6%8C%82%E8%BD%BD%E4%BA%91%E7%9B%98/</url>
     <content><![CDATA[<h2 id="挂载onderive"><a class="markdownIt-Anchor" href="#挂载onderive"></a> 挂载OnDerive</h2>
 <h3 id="视频教程挂载onderive视频"><a class="markdownIt-Anchor" href="#视频教程挂载onderive视频"></a> 视频教程：<a href="https://www.bilibili.com/video/BV1Ro4y1s725/?spm_id_from=888.80997.embed_other.whitelist&amp;vd_source=dad82534b29c1223ba0cff51a716d889">挂载OnDerive视频</a></h3>
-<div class="bilibili">
-    <iframe src="//player.bilibili.com/player.html?aid=396559519&&page=1&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=396559519&&page=1&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
 <h3 id="图文教程挂载onderive图文"><a class="markdownIt-Anchor" href="#图文教程挂载onderive图文"></a> 图文教程：<a href="https://alist.nn.ci/zh/guide/drivers/onedrive_app.html#%E5%A5%BD%E5%A4%84%E4%BB%A5%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">挂载OnDerive图文</a></h3>
 <h2 id="挂载阿里云盘-open"><a class="markdownIt-Anchor" href="#挂载阿里云盘-open"></a> 挂载阿里云盘 Open</h2>
 <h3 id="图文教程挂载阿里云盘-open"><a class="markdownIt-Anchor" href="#图文教程挂载阿里云盘-open"></a> 图文教程：<a href="https://alist.nn.ci/zh/guide/drivers/aliyundrive_open.html">挂载阿里云盘 Open</a></h3>
@@ -45,6 +43,36 @@
       <tags>
         <tag>Microsoft 365</tag>
         <tag>E5开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Cloudflare WARP</title>
+    <url>/2023/05/11/Cloudflare%20WARP/</url>
+    <content><![CDATA[<h2 id="一键安装cloudflare-warp"><a class="markdownIt-Anchor" href="#一键安装cloudflare-warp"></a> 一键安装Cloudflare WARP</h2>
+<h3 id="项目地址github"><a class="markdownIt-Anchor" href="#项目地址github"></a> 项目地址：<a href="https://github.com/P3TERX/warp.sh">GitHub</a></h3>
+<h3 id="自动配置-warp-wireguard-双栈全局网络"><a class="markdownIt-Anchor" href="#自动配置-warp-wireguard-双栈全局网络"></a> 自动配置 WARP WireGuard 双栈全局网络</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) d</span><br></pre></td></tr></table></figure>
+<h3 id="ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"><a class="markdownIt-Anchor" href="#ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"></a> IPv4/IPv6 网络中的一个出口走 WARP Wire­Guard 网络</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 自动配置 WARP WireGuard IPv4 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 4</span><br><span class="line"># 自动配置 WARP WireGuard IPv6 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 6</span><br></pre></td></tr></table></figure>
+<h3 id="重启-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#重启-warp-wireguard-网络接口"></a> 重启 WARP WireGuard 网络接口</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart wg-quick@wgcf</span><br></pre></td></tr></table></figure>
+<h3 id="禁用-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#禁用-warp-wireguard-网络接口"></a> 禁用 WARP WireGuard 网络接口</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable wg-quick@wgcf --now</span><br></pre></td></tr></table></figure>
+<h3 id="自动配置-warp-官方客户端-socks5-代理"><a class="markdownIt-Anchor" href="#自动配置-warp-官方客户端-socks5-代理"></a> 自动配置 WARP 官方客户端 SOCKS5 代理</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) s5</span><br></pre></td></tr></table></figure>
+<h3 id="卸载-warp-官方-linux-客户端"><a class="markdownIt-Anchor" href="#卸载-warp-官方-linux-客户端"></a> 卸载 WARP 官方 Linux 客户端</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) uninstall</span><br></pre></td></tr></table></figure>
+<h2 id="warp-脚本功能菜单"><a class="markdownIt-Anchor" href="#warp-脚本功能菜单"></a> WARP 脚本功能菜单</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) menu</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>服务器</category>
+        <category>笔记</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -118,36 +146,6 @@
       <tags>
         <tag>教程</tag>
         <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cloudflare WARP</title>
-    <url>/2023/05/11/Cloudflare%20WARP/</url>
-    <content><![CDATA[<h2 id="一键安装cloudflare-warp"><a class="markdownIt-Anchor" href="#一键安装cloudflare-warp"></a> 一键安装Cloudflare WARP</h2>
-<h3 id="项目地址github"><a class="markdownIt-Anchor" href="#项目地址github"></a> 项目地址：<a href="https://github.com/P3TERX/warp.sh">GitHub</a></h3>
-<h3 id="自动配置-warp-wireguard-双栈全局网络"><a class="markdownIt-Anchor" href="#自动配置-warp-wireguard-双栈全局网络"></a> 自动配置 WARP WireGuard 双栈全局网络</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) d</span><br></pre></td></tr></table></figure>
-<h3 id="ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"><a class="markdownIt-Anchor" href="#ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"></a> IPv4/IPv6 网络中的一个出口走 WARP Wire­Guard 网络</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 自动配置 WARP WireGuard IPv4 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 4</span><br><span class="line"># 自动配置 WARP WireGuard IPv6 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 6</span><br></pre></td></tr></table></figure>
-<h3 id="重启-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#重启-warp-wireguard-网络接口"></a> 重启 WARP WireGuard 网络接口</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart wg-quick@wgcf</span><br></pre></td></tr></table></figure>
-<h3 id="禁用-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#禁用-warp-wireguard-网络接口"></a> 禁用 WARP WireGuard 网络接口</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable wg-quick@wgcf --now</span><br></pre></td></tr></table></figure>
-<h3 id="自动配置-warp-官方客户端-socks5-代理"><a class="markdownIt-Anchor" href="#自动配置-warp-官方客户端-socks5-代理"></a> 自动配置 WARP 官方客户端 SOCKS5 代理</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) s5</span><br></pre></td></tr></table></figure>
-<h3 id="卸载-warp-官方-linux-客户端"><a class="markdownIt-Anchor" href="#卸载-warp-官方-linux-客户端"></a> 卸载 WARP 官方 Linux 客户端</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) uninstall</span><br></pre></td></tr></table></figure>
-<h2 id="warp-脚本功能菜单"><a class="markdownIt-Anchor" href="#warp-脚本功能菜单"></a> WARP 脚本功能菜单</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) menu</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>服务器</category>
-        <category>笔记</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>服务器</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -381,31 +379,6 @@
       </tags>
   </entry>
   <entry>
-    <title>构建开源的GPT4</title>
-    <url>/2023/05/10/%E6%9E%84%E5%BB%BA%E5%BC%80%E6%BA%90%E7%9A%84GPT4/</url>
-    <content><![CDATA[<h3 id="github开源地址"><a class="markdownIt-Anchor" href="#github开源地址"></a> <a href="https://github.com/xtekky/gpt4free">GitHub开源地址</a></h3>
-<h3 id="克隆文件至本地"><a class="markdownIt-Anchor" href="#克隆文件至本地"></a> 克隆文件至本地</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/xtekky/gpt4free.git</span><br></pre></td></tr></table></figure>
-<h3 id="下载依赖"><a class="markdownIt-Anchor" href="#下载依赖"></a> 下载依赖</h3>
-<p><strong>进入gpt4free根目录执行</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip3 install -r requirements.txt</span><br></pre></td></tr></table></figure>
-<h3 id="将gui拷贝至gpt4free根目录"><a class="markdownIt-Anchor" href="#将gui拷贝至gpt4free根目录"></a> 将gui拷贝至gpt4free根目录</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp gui/streamlit_app.py .</span><br></pre></td></tr></table></figure>
-<h3 id="运行"><a class="markdownIt-Anchor" href="#运行"></a> 运行</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python3 -m streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
-<p><strong>或者</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>ChatGPT</tag>
-        <tag>GPT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>将本地项目推送到GitHub</title>
     <url>/2023/04/20/%E5%B0%86%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E6%8E%A8%E9%80%81%E5%88%B0GitHub/</url>
     <content><![CDATA[<p><strong>说明：</strong></p>
@@ -444,6 +417,31 @@
       <tags>
         <tag>Git</tag>
         <tag>GitHub</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>构建开源的GPT4</title>
+    <url>/2023/05/10/%E6%9E%84%E5%BB%BA%E5%BC%80%E6%BA%90%E7%9A%84GPT4/</url>
+    <content><![CDATA[<h3 id="github开源地址"><a class="markdownIt-Anchor" href="#github开源地址"></a> <a href="https://github.com/xtekky/gpt4free">GitHub开源地址</a></h3>
+<h3 id="克隆文件至本地"><a class="markdownIt-Anchor" href="#克隆文件至本地"></a> 克隆文件至本地</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/xtekky/gpt4free.git</span><br></pre></td></tr></table></figure>
+<h3 id="下载依赖"><a class="markdownIt-Anchor" href="#下载依赖"></a> 下载依赖</h3>
+<p><strong>进入gpt4free根目录执行</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip3 install -r requirements.txt</span><br></pre></td></tr></table></figure>
+<h3 id="将gui拷贝至gpt4free根目录"><a class="markdownIt-Anchor" href="#将gui拷贝至gpt4free根目录"></a> 将gui拷贝至gpt4free根目录</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp gui/streamlit_app.py .</span><br></pre></td></tr></table></figure>
+<h3 id="运行"><a class="markdownIt-Anchor" href="#运行"></a> 运行</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python3 -m streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
+<p><strong>或者</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>GPT</tag>
       </tags>
   </entry>
   <entry>
