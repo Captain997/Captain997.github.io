@@ -15,21 +15,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Android应用推荐</title>
-    <url>/2023/04/21/Android%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<h2 id="1-你跳跳"><a class="markdownIt-Anchor" href="#1-你跳跳"></a> 1、你跳跳</h2>
-<p><strong>帮助我们自动跳过一些app开屏烦人的界面，如广告</strong><br />
-<strong>该应用不会无度索取用户权限，是一款良心app</strong><br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-21/turnonltt.gif" alt="" /></p>
-<h3 id="官网地址李跳跳"><a class="markdownIt-Anchor" href="#官网地址李跳跳"></a> 官网地址：<a href="https://litiaotiao.cn/">李跳跳</a></h3>
-<h3 id="高速下载蓝奏云-密码-cf24"><a class="markdownIt-Anchor" href="#高速下载蓝奏云-密码-cf24"></a> 高速下载：<a href="https://wwjw.lanzoum.com/iKBU80tn5pqj?pwd=cf24#cf24">蓝奏云</a>   密码: <code>cf24</code></h3>
+    <title>E5开发者计划续订</title>
+    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
+    <content><![CDATA[<p><strong>原教程已不适用，未来出现稳定方法再更新！</strong></p>
 ]]></content>
       <categories>
-        <category>应用推荐</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>Android</tag>
-        <tag>app</tag>
+        <tag>Microsoft 365</tag>
+        <tag>E5开发</tag>
       </tags>
   </entry>
   <entry>
@@ -63,16 +58,21 @@
       </tags>
   </entry>
   <entry>
-    <title>E5开发者计划续订</title>
-    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
-    <content><![CDATA[<p><strong>原教程已不适用，未来出现稳定方法再更新！</strong></p>
+    <title>Android应用推荐</title>
+    <url>/2023/04/21/Android%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<h2 id="1-你跳跳"><a class="markdownIt-Anchor" href="#1-你跳跳"></a> 1、你跳跳</h2>
+<p><strong>帮助我们自动跳过一些app开屏烦人的界面，如广告</strong><br />
+<strong>该应用不会无度索取用户权限，是一款良心app</strong><br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-21/turnonltt.gif" alt="" /></p>
+<h3 id="官网地址李跳跳"><a class="markdownIt-Anchor" href="#官网地址李跳跳"></a> 官网地址：<a href="https://litiaotiao.cn/">李跳跳</a></h3>
+<h3 id="高速下载蓝奏云-密码-cf24"><a class="markdownIt-Anchor" href="#高速下载蓝奏云-密码-cf24"></a> 高速下载：<a href="https://wwjw.lanzoum.com/iKBU80tn5pqj?pwd=cf24#cf24">蓝奏云</a>   密码: <code>cf24</code></h3>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>应用推荐</category>
       </categories>
       <tags>
-        <tag>Microsoft 365</tag>
-        <tag>E5开发</tag>
+        <tag>Android</tag>
+        <tag>app</tag>
       </tags>
   </entry>
   <entry>
@@ -294,60 +294,6 @@
       </tags>
   </entry>
   <entry>
-    <title>MacOS应用推荐</title>
-    <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
-]]></content>
-      <categories>
-        <category>应用推荐</category>
-      </categories>
-      <tags>
-        <tag>app</tag>
-        <tag>MacOS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>将本地项目推送到GitHub</title>
-    <url>/2023/04/20/%E5%B0%86%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E6%8E%A8%E9%80%81%E5%88%B0GitHub/</url>
-    <content><![CDATA[<p><strong>说明：</strong></p>
-<p>1.默认已安装和配置git，如果没配置好请跳转<a href="http://epochge.com/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/">Git安装与配置</a></p>
-<p>2.仓库名字：Test</p>
-<h3 id="1在github创建新test仓库"><a class="markdownIt-Anchor" href="#1在github创建新test仓库"></a> 1.在GitHub创建新Test仓库</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="" /></p>
-<h3 id="2项目初始化"><a class="markdownIt-Anchor" href="#2项目初始化"></a> 2.项目初始化</h3>
-<p>进入项目根目录执行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%96%87%E4%BB%B6%E5%88%9D%E5%A7%8B%E5%8C%96.png" alt="" /></p>
-<p>初始化后在项目目录多出了.git文件夹</p>
-<h3 id="3查看提交状态"><a class="markdownIt-Anchor" href="#3查看提交状态"></a> 3.查看提交状态</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E7%8A%B6%E6%80%81%E6%9F%A5%E8%AF%A2.png" alt="" /></p>
-<h3 id="4git-add-添加内容到索引"><a class="markdownIt-Anchor" href="#4git-add-添加内容到索引"></a> 4.git add  添加内容到索引</h3>
-<p>输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add A</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E5%90%8E%E7%8A%B6%E6%80%81.png" alt="" /></p>
-<h3 id="5提交注释"><a class="markdownIt-Anchor" href="#5提交注释"></a> 5.提交注释</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit -m &#x27;内容&#x27;</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E6%B3%A8%E9%87%8A.png" alt="" /></p>
-<h3 id="6将本地-文件与github仓库关联"><a class="markdownIt-Anchor" href="#6将本地-文件与github仓库关联"></a> 6.将本地 文件与GitHub仓库关联</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git remote add origin 仓库链接</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%9C%AC%E5%9C%B0%E5%85%B3%E8%81%94GitHub%E4%BB%93%E5%BA%93.png" alt="" /></p>
-<h3 id="7推送到github远程仓库"><a class="markdownIt-Anchor" href="#7推送到github远程仓库"></a> 7.推送到GitHub远程仓库</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E4%B8%8A%E4%BC%A0%E6%88%90%E5%8A%9F.png" alt="" /></p>
-<p><strong>至此教程完成，这只是一个关于Git和GitHub的初步应用，实际上它们还有很多强大的功能需要你去探索</strong></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>GitHub</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown笔记</title>
     <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
@@ -407,6 +353,19 @@
       </tags>
   </entry>
   <entry>
+    <title>MacOS应用推荐</title>
+    <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
+]]></content>
+      <categories>
+        <category>应用推荐</category>
+      </categories>
+      <tags>
+        <tag>app</tag>
+        <tag>MacOS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows应用推荐</title>
     <url>/2023/05/02/Windows%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>Windows应用推荐Windows应用推荐</p>
@@ -420,58 +379,44 @@
       </tags>
   </entry>
   <entry>
-    <title>构建开源的GPT4</title>
-    <url>/2023/05/10/%E6%9E%84%E5%BB%BA%E5%BC%80%E6%BA%90%E7%9A%84GPT4/</url>
-    <content><![CDATA[<h3 id="github开源地址"><a class="markdownIt-Anchor" href="#github开源地址"></a> <a href="https://github.com/xtekky/gpt4free">GitHub开源地址</a></h3>
-<h3 id="克隆文件至本地"><a class="markdownIt-Anchor" href="#克隆文件至本地"></a> 克隆文件至本地</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/xtekky/gpt4free.git</span><br></pre></td></tr></table></figure>
-<h3 id="下载依赖"><a class="markdownIt-Anchor" href="#下载依赖"></a> 下载依赖</h3>
-<p><strong>进入gpt4free根目录执行</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip3 install -r requirements.txt</span><br></pre></td></tr></table></figure>
-<h3 id="将gui拷贝至gpt4free根目录"><a class="markdownIt-Anchor" href="#将gui拷贝至gpt4free根目录"></a> 将gui拷贝至gpt4free根目录</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp gui/streamlit_app.py .</span><br></pre></td></tr></table></figure>
-<h3 id="运行"><a class="markdownIt-Anchor" href="#运行"></a> 运行</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python3 -m streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
-<p><strong>或者</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>ChatGPT</tag>
-        <tag>GPT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>申请免费域名</title>
-    <url>/2023/05/21/%E7%94%B3%E8%AF%B7%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/</url>
-    <content><![CDATA[<h2 id="注册地址"><a class="markdownIt-Anchor" href="#注册地址"></a> <a href="https://nic.eu.org/arf/en/contact/create/">注册地址</a></h2>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%B3%A8%E5%86%8C%E4%BF%A1%E6%81%AF%E5%A1%AB%E5%86%99.png" width="50%" height="50%" />
-<p>名字填写格式为 姓+名，注意中间有空格，不然会报错格式错误</p>
-<h2 id="邮箱验证"><a class="markdownIt-Anchor" href="#邮箱验证"></a> 邮箱验证</h2>
-<p>提交注册信息后，注意查看邮箱邮件，邮件中包含账户信息用户名，点击验证链接进行验证</p>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E9%82%AE%E4%BB%B6.png" width="50%" height="50%" />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E8%B4%A6%E5%8F%B7%E4%BF%A1%E6%81%AF%E9%AA%8C%E8%AF%81.png" width="50%" height="50%" />
-<h2 id="创建域名"><a class="markdownIt-Anchor" href="#创建域名"></a> 创建域名</h2>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%88%9B%E5%BB%BA%E6%96%B0%E5%9F%9F%E5%90%8D.png" width="50%" height="50%" />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7.png" width="50%" height="50%" />
-<h2 id="设置dns服务器"><a class="markdownIt-Anchor" href="#设置dns服务器"></a> 设置dns服务器</h2>
-<p>可以找到自己合适的dns服务器商，这里以为Cloudflare为例</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">amanda.ns.cloudflare.com</span><br><span class="line">owen.ns.cloudflare.com</span><br></pre></td></tr></table></figure>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/dns%E6%9C%8D%E5%8A%A1%E5%99%A8.png" width="50%" height="50%" />
-<p>如果域名已被注册则提示</p>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%A4%B1%E8%B4%A5.png" width="50%" height="50%" />
-<p>如果域名未被注册，则提示</p>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%88%90%E5%8A%9F.png" width="50%" height="50%" />
+    <title>将本地项目推送到GitHub</title>
+    <url>/2023/04/20/%E5%B0%86%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E6%8E%A8%E9%80%81%E5%88%B0GitHub/</url>
+    <content><![CDATA[<p><strong>说明：</strong></p>
+<p>1.默认已安装和配置git，如果没配置好请跳转<a href="http://epochge.com/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/">Git安装与配置</a></p>
+<p>2.仓库名字：Test</p>
+<h3 id="1在github创建新test仓库"><a class="markdownIt-Anchor" href="#1在github创建新test仓库"></a> 1.在GitHub创建新Test仓库</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="" /></p>
+<h3 id="2项目初始化"><a class="markdownIt-Anchor" href="#2项目初始化"></a> 2.项目初始化</h3>
+<p>进入项目根目录执行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%96%87%E4%BB%B6%E5%88%9D%E5%A7%8B%E5%8C%96.png" alt="" /></p>
+<p>初始化后在项目目录多出了.git文件夹</p>
+<h3 id="3查看提交状态"><a class="markdownIt-Anchor" href="#3查看提交状态"></a> 3.查看提交状态</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E7%8A%B6%E6%80%81%E6%9F%A5%E8%AF%A2.png" alt="" /></p>
+<h3 id="4git-add-添加内容到索引"><a class="markdownIt-Anchor" href="#4git-add-添加内容到索引"></a> 4.git add  添加内容到索引</h3>
+<p>输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add A</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E5%90%8E%E7%8A%B6%E6%80%81.png" alt="" /></p>
+<h3 id="5提交注释"><a class="markdownIt-Anchor" href="#5提交注释"></a> 5.提交注释</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit -m &#x27;内容&#x27;</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E6%B3%A8%E9%87%8A.png" alt="" /></p>
+<h3 id="6将本地-文件与github仓库关联"><a class="markdownIt-Anchor" href="#6将本地-文件与github仓库关联"></a> 6.将本地 文件与GitHub仓库关联</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git remote add origin 仓库链接</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%9C%AC%E5%9C%B0%E5%85%B3%E8%81%94GitHub%E4%BB%93%E5%BA%93.png" alt="" /></p>
+<h3 id="7推送到github远程仓库"><a class="markdownIt-Anchor" href="#7推送到github远程仓库"></a> 7.推送到GitHub远程仓库</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E4%B8%8A%E4%BC%A0%E6%88%90%E5%8A%9F.png" alt="" /></p>
+<p><strong>至此教程完成，这只是一个关于Git和GitHub的初步应用，实际上它们还有很多强大的功能需要你去探索</strong></p>
 ]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>域名</tag>
-        <tag>免费</tag>
+        <tag>Git</tag>
+        <tag>GitHub</tag>
       </tags>
   </entry>
   <entry>
@@ -576,6 +521,61 @@ LuCI --&gt; Themes # 选择喜欢的主题，可以选多个</p>
       </categories>
       <tags>
         <tag>OpenWrt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>构建开源的GPT4</title>
+    <url>/2023/05/10/%E6%9E%84%E5%BB%BA%E5%BC%80%E6%BA%90%E7%9A%84GPT4/</url>
+    <content><![CDATA[<h3 id="github开源地址"><a class="markdownIt-Anchor" href="#github开源地址"></a> <a href="https://github.com/xtekky/gpt4free">GitHub开源地址</a></h3>
+<h3 id="克隆文件至本地"><a class="markdownIt-Anchor" href="#克隆文件至本地"></a> 克隆文件至本地</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/xtekky/gpt4free.git</span><br></pre></td></tr></table></figure>
+<h3 id="下载依赖"><a class="markdownIt-Anchor" href="#下载依赖"></a> 下载依赖</h3>
+<p><strong>进入gpt4free根目录执行</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip3 install -r requirements.txt</span><br></pre></td></tr></table></figure>
+<h3 id="将gui拷贝至gpt4free根目录"><a class="markdownIt-Anchor" href="#将gui拷贝至gpt4free根目录"></a> 将gui拷贝至gpt4free根目录</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp gui/streamlit_app.py .</span><br></pre></td></tr></table></figure>
+<h3 id="运行"><a class="markdownIt-Anchor" href="#运行"></a> 运行</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python3 -m streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
+<p><strong>或者</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>GPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>申请免费域名</title>
+    <url>/2023/05/21/%E7%94%B3%E8%AF%B7%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/</url>
+    <content><![CDATA[<h2 id="注册地址"><a class="markdownIt-Anchor" href="#注册地址"></a> <a href="https://nic.eu.org/arf/en/contact/create/">注册地址</a></h2>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%B3%A8%E5%86%8C%E4%BF%A1%E6%81%AF%E5%A1%AB%E5%86%99.png" width="50%" height="50%" />
+<p>名字填写格式为 姓+名，注意中间有空格，不然会报错格式错误</p>
+<h2 id="邮箱验证"><a class="markdownIt-Anchor" href="#邮箱验证"></a> 邮箱验证</h2>
+<p>提交注册信息后，注意查看邮箱邮件，邮件中包含账户信息用户名，点击验证链接进行验证</p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E9%82%AE%E4%BB%B6.png" width="50%" height="50%" />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E8%B4%A6%E5%8F%B7%E4%BF%A1%E6%81%AF%E9%AA%8C%E8%AF%81.png" width="50%" height="50%" />
+<h2 id="创建域名"><a class="markdownIt-Anchor" href="#创建域名"></a> 创建域名</h2>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%88%9B%E5%BB%BA%E6%96%B0%E5%9F%9F%E5%90%8D.png" width="50%" height="50%" />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7.png" width="50%" height="50%" />
+<h2 id="设置dns服务器"><a class="markdownIt-Anchor" href="#设置dns服务器"></a> 设置dns服务器</h2>
+<p>可以找到自己合适的dns服务器商，这里以为Cloudflare为例</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">amanda.ns.cloudflare.com</span><br><span class="line">owen.ns.cloudflare.com</span><br></pre></td></tr></table></figure>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/dns%E6%9C%8D%E5%8A%A1%E5%99%A8.png" width="50%" height="50%" />
+<p>如果域名已被注册则提示</p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%A4%B1%E8%B4%A5.png" width="50%" height="50%" />
+<p>如果域名未被注册，则提示</p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%88%90%E5%8A%9F.png" width="50%" height="50%" />
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>域名</tag>
+        <tag>免费</tag>
       </tags>
   </entry>
 </search>
