@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Android应用推荐</title>
+    <url>/2023/04/21/Android%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<h2 id="1-你跳跳"><a class="markdownIt-Anchor" href="#1-你跳跳"></a> 1、你跳跳</h2>
+<p><strong>帮助我们自动跳过一些app开屏烦人的界面，如广告</strong><br />
+<strong>该应用不会无度索取用户权限，是一款良心app</strong><br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-21/turnonltt.gif" alt="" /></p>
+<h3 id="官网地址李跳跳"><a class="markdownIt-Anchor" href="#官网地址李跳跳"></a> 官网地址：<a href="https://litiaotiao.cn/">李跳跳</a></h3>
+<h3 id="高速下载蓝奏云-密码-cf24"><a class="markdownIt-Anchor" href="#高速下载蓝奏云-密码-cf24"></a> 高速下载：<a href="https://wwjw.lanzoum.com/iKBU80tn5pqj?pwd=cf24#cf24">蓝奏云</a>   密码: <code>cf24</code></h3>
+]]></content>
+      <categories>
+        <category>应用推荐</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>app</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>AList挂载云盘</title>
     <url>/2023/05/04/AList%E6%8C%82%E8%BD%BD%E4%BA%91%E7%9B%98/</url>
     <content><![CDATA[<h2 id="挂载onderive"><a class="markdownIt-Anchor" href="#挂载onderive"></a> 挂载OnDerive</h2>
@@ -25,21 +43,119 @@
       </tags>
   </entry>
   <entry>
-    <title>Android应用推荐</title>
-    <url>/2023/04/21/Android%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<h2 id="1-你跳跳"><a class="markdownIt-Anchor" href="#1-你跳跳"></a> 1、你跳跳</h2>
-<p><strong>帮助我们自动跳过一些app开屏烦人的界面，如广告</strong><br />
-<strong>该应用不会无度索取用户权限，是一款良心app</strong><br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-4-21/turnonltt.gif" alt="" /></p>
-<h3 id="官网地址李跳跳"><a class="markdownIt-Anchor" href="#官网地址李跳跳"></a> 官网地址：<a href="https://litiaotiao.cn/">李跳跳</a></h3>
-<h3 id="高速下载蓝奏云-密码-cf24"><a class="markdownIt-Anchor" href="#高速下载蓝奏云-密码-cf24"></a> 高速下载：<a href="https://wwjw.lanzoum.com/iKBU80tn5pqj?pwd=cf24#cf24">蓝奏云</a>   密码: <code>cf24</code></h3>
+    <title>Cloudflare WARP</title>
+    <url>/2023/05/11/Cloudflare%20WARP/</url>
+    <content><![CDATA[<h2 id="一键安装cloudflare-warp"><a class="markdownIt-Anchor" href="#一键安装cloudflare-warp"></a> 一键安装Cloudflare WARP</h2>
+<h3 id="项目地址github"><a class="markdownIt-Anchor" href="#项目地址github"></a> 项目地址：<a href="https://github.com/P3TERX/warp.sh">GitHub</a></h3>
+<h3 id="自动配置-warp-wireguard-双栈全局网络"><a class="markdownIt-Anchor" href="#自动配置-warp-wireguard-双栈全局网络"></a> 自动配置 WARP WireGuard 双栈全局网络</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) d</span><br></pre></td></tr></table></figure>
+<h3 id="ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"><a class="markdownIt-Anchor" href="#ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"></a> IPv4/IPv6 网络中的一个出口走 WARP Wire­Guard 网络</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 自动配置 WARP WireGuard IPv4 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 4</span><br><span class="line"># 自动配置 WARP WireGuard IPv6 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 6</span><br></pre></td></tr></table></figure>
+<h3 id="重启-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#重启-warp-wireguard-网络接口"></a> 重启 WARP WireGuard 网络接口</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart wg-quick@wgcf</span><br></pre></td></tr></table></figure>
+<h3 id="禁用-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#禁用-warp-wireguard-网络接口"></a> 禁用 WARP WireGuard 网络接口</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable wg-quick@wgcf --now</span><br></pre></td></tr></table></figure>
+<h3 id="自动配置-warp-官方客户端-socks5-代理"><a class="markdownIt-Anchor" href="#自动配置-warp-官方客户端-socks5-代理"></a> 自动配置 WARP 官方客户端 SOCKS5 代理</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) s5</span><br></pre></td></tr></table></figure>
+<h3 id="卸载-warp-官方-linux-客户端"><a class="markdownIt-Anchor" href="#卸载-warp-官方-linux-客户端"></a> 卸载 WARP 官方 Linux 客户端</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) uninstall</span><br></pre></td></tr></table></figure>
+<h2 id="warp-脚本功能菜单"><a class="markdownIt-Anchor" href="#warp-脚本功能菜单"></a> WARP 脚本功能菜单</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) menu</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>应用推荐</category>
+        <category>服务器</category>
+        <category>笔记</category>
+        <category>Linux</category>
       </categories>
       <tags>
-        <tag>Android</tag>
-        <tag>app</tag>
+        <tag>服务器</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>E5开发者计划续订</title>
+    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
+    <content><![CDATA[<p><strong>原教程已不适用，未来出现稳定方法再更新！</strong></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Microsoft 365</tag>
+        <tag>E5开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git安装与配置</title>
+    <url>/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
+<h3 id="1下载-git"><a class="markdownIt-Anchor" href="#1下载-git"></a> 1.下载 Git</h3>
+<p>根据操作系统类型下载对应版本</p>
+<p><a href="https://git-scm.com/download">Git官网下载</a><br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/1.png" alt="" /></p>
+<h3 id="2安装"><a class="markdownIt-Anchor" href="#2安装"></a> 2.安装</h3>
+<p>大部分人用Windows，固以Windows为例<br />
+双击打开下载好的  Git-2.40.1-64-bit<br />
+默认路径，可按需修改<br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/2.png" alt="" /></p>
+<h3 id="3安装选项"><a class="markdownIt-Anchor" href="#3安装选项"></a> 3.安装选项</h3>
+<p>如果不明确自己的需求，建议默认即可<br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/3.png" alt="" /></p>
+<h3 id="4默认分支配置"><a class="markdownIt-Anchor" href="#4默认分支配置"></a> 4.默认分支配置</h3>
+<p>Git默认的是master分支，但目前GitHub创建的分支默认已经改成main<br />
+所以建议将Git的默认分支设置成main<br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/4.png" alt="" /><br />
+接下来无脑下一步即可</p>
+<h3 id="5安装成功"><a class="markdownIt-Anchor" href="#5安装成功"></a> 5.安装成功</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/5.png" alt="" /></p>
+<h2 id="验证git是否安装成功"><a class="markdownIt-Anchor" href="#验证git是否安装成功"></a> 验证Git是否安装成功</h2>
+<p>在PowerShell或CMD运行git --version查看Git版本</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/git%E7%89%88%E6%9C%AC.png" alt="" /></p>
+<h2 id="配置git关联到远端仓库"><a class="markdownIt-Anchor" href="#配置git关联到远端仓库"></a> 配置Git关联到远端仓库</h2>
+<p>这里主要介绍免费公开的代码托管平台，自建平台请以实际为准<br />
+<strong>GitHub：全球最大的代码托管网站和开源社区</strong><br />
+<strong>Gitee（码云）：开源中国于2013年推出的基于Git的代码托管和协作开发平台也是目前是中国大陆规模最大的代码托管平台</strong></p>
+<p><strong>这里以GitHub为例，gitee也大差不差的步骤</strong></p>
+<h3 id="1打开git-bash"><a class="markdownIt-Anchor" href="#1打开git-bash"></a> 1.打开Git Bash</h3>
+<p><strong>右键打开Git Bash Here</strong><br />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/GitBash.png" alt="" /></p>
+<h3 id="2设置github用户名-邮箱"><a class="markdownIt-Anchor" href="#2设置github用户名-邮箱"></a> 2.设置GitHub用户名、邮箱</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub账户名字&quot;</span><br></pre></td></tr></table></figure>
+<p><strong>回车，接着输入</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;你的GitHub绑定邮箱&quot;</span><br></pre></td></tr></table></figure>
+<p><strong>回车确认</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/git%E4%BF%A1%E6%81%AF%E7%BB%91%E5%AE%9A2.png" alt="" /></p>
+<h3 id="3生成ssh公钥"><a class="markdownIt-Anchor" href="#3生成ssh公钥"></a> 3.生成ssh公钥</h3>
+<p>生成公钥</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub绑定邮箱&quot;</span><br></pre></td></tr></table></figure>
+<p>输入后按3次回车</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/ssh%E5%85%AC%E9%92%A5%E5%8C%992.png" alt="" /></p>
+<h3 id="4验证配置是否成功"><a class="markdownIt-Anchor" href="#4验证配置是否成功"></a> 4.验证配置是否成功</h3>
+<p>依次输入下列命令，如若出现设置信息即配置成功</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E9%85%8D%E7%BD%AE%E9%AA%8C%E8%AF%81.png" alt="" /></p>
+<h3 id="5在github添加生成的公钥"><a class="markdownIt-Anchor" href="#5在github添加生成的公钥"></a> 5.在GitHub添加生成的公钥</h3>
+<p>登录GitHub点击右上角的头像</p>
+<p>依次点击Settings --&gt; SSH and GPG keys --&gt; New SSH key</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/giyhubaddsshkeys.png" alt="" /></p>
+<h3 id="6添加公钥"><a class="markdownIt-Anchor" href="#6添加公钥"></a> 6.添加公钥</h3>
+<p>在路径C:\Users\xxxx(用户名)\下有名为.ssh的文件夹</p>
+<p>进入.ssh文件夹，用记事本打开<strong>id_rsa.pub</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%B7%BB%E5%8A%A0%E5%85%AC%E9%92%A5.png" alt="" /></p>
+<h3 id="7连接验证"><a class="markdownIt-Anchor" href="#7连接验证"></a> 7.连接验证</h3>
+<p>输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p><strong>成功结果如下</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E8%BF%9E%E6%8E%A5%E9%AA%8C%E8%AF%81.png" alt="" /></p>
+<p><strong>至此已安装和配置完成～</strong></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -188,122 +304,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Git安装与配置</title>
-    <url>/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
-<h3 id="1下载-git"><a class="markdownIt-Anchor" href="#1下载-git"></a> 1.下载 Git</h3>
-<p>根据操作系统类型下载对应版本</p>
-<p><a href="https://git-scm.com/download">Git官网下载</a><br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/1.png" alt="" /></p>
-<h3 id="2安装"><a class="markdownIt-Anchor" href="#2安装"></a> 2.安装</h3>
-<p>大部分人用Windows，固以Windows为例<br />
-双击打开下载好的  Git-2.40.1-64-bit<br />
-默认路径，可按需修改<br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/2.png" alt="" /></p>
-<h3 id="3安装选项"><a class="markdownIt-Anchor" href="#3安装选项"></a> 3.安装选项</h3>
-<p>如果不明确自己的需求，建议默认即可<br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/3.png" alt="" /></p>
-<h3 id="4默认分支配置"><a class="markdownIt-Anchor" href="#4默认分支配置"></a> 4.默认分支配置</h3>
-<p>Git默认的是master分支，但目前GitHub创建的分支默认已经改成main<br />
-所以建议将Git的默认分支设置成main<br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/4.png" alt="" /><br />
-接下来无脑下一步即可</p>
-<h3 id="5安装成功"><a class="markdownIt-Anchor" href="#5安装成功"></a> 5.安装成功</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/5.png" alt="" /></p>
-<h2 id="验证git是否安装成功"><a class="markdownIt-Anchor" href="#验证git是否安装成功"></a> 验证Git是否安装成功</h2>
-<p>在PowerShell或CMD运行git --version查看Git版本</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/git%E7%89%88%E6%9C%AC.png" alt="" /></p>
-<h2 id="配置git关联到远端仓库"><a class="markdownIt-Anchor" href="#配置git关联到远端仓库"></a> 配置Git关联到远端仓库</h2>
-<p>这里主要介绍免费公开的代码托管平台，自建平台请以实际为准<br />
-<strong>GitHub：全球最大的代码托管网站和开源社区</strong><br />
-<strong>Gitee（码云）：开源中国于2013年推出的基于Git的代码托管和协作开发平台也是目前是中国大陆规模最大的代码托管平台</strong></p>
-<p><strong>这里以GitHub为例，gitee也大差不差的步骤</strong></p>
-<h3 id="1打开git-bash"><a class="markdownIt-Anchor" href="#1打开git-bash"></a> 1.打开Git Bash</h3>
-<p><strong>右键打开Git Bash Here</strong><br />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/GitBash.png" alt="" /></p>
-<h3 id="2设置github用户名-邮箱"><a class="markdownIt-Anchor" href="#2设置github用户名-邮箱"></a> 2.设置GitHub用户名、邮箱</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub账户名字&quot;</span><br></pre></td></tr></table></figure>
-<p><strong>回车，接着输入</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;你的GitHub绑定邮箱&quot;</span><br></pre></td></tr></table></figure>
-<p><strong>回车确认</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/git%E4%BF%A1%E6%81%AF%E7%BB%91%E5%AE%9A2.png" alt="" /></p>
-<h3 id="3生成ssh公钥"><a class="markdownIt-Anchor" href="#3生成ssh公钥"></a> 3.生成ssh公钥</h3>
-<p>生成公钥</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub绑定邮箱&quot;</span><br></pre></td></tr></table></figure>
-<p>输入后按3次回车</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/ssh%E5%85%AC%E9%92%A5%E5%8C%992.png" alt="" /></p>
-<h3 id="4验证配置是否成功"><a class="markdownIt-Anchor" href="#4验证配置是否成功"></a> 4.验证配置是否成功</h3>
-<p>依次输入下列命令，如若出现设置信息即配置成功</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E9%85%8D%E7%BD%AE%E9%AA%8C%E8%AF%81.png" alt="" /></p>
-<h3 id="5在github添加生成的公钥"><a class="markdownIt-Anchor" href="#5在github添加生成的公钥"></a> 5.在GitHub添加生成的公钥</h3>
-<p>登录GitHub点击右上角的头像</p>
-<p>依次点击Settings --&gt; SSH and GPG keys --&gt; New SSH key</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/giyhubaddsshkeys.png" alt="" /></p>
-<h3 id="6添加公钥"><a class="markdownIt-Anchor" href="#6添加公钥"></a> 6.添加公钥</h3>
-<p>在路径C:\Users\xxxx(用户名)\下有名为.ssh的文件夹</p>
-<p>进入.ssh文件夹，用记事本打开<strong>id_rsa.pub</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%B7%BB%E5%8A%A0%E5%85%AC%E9%92%A5.png" alt="" /></p>
-<h3 id="7连接验证"><a class="markdownIt-Anchor" href="#7连接验证"></a> 7.连接验证</h3>
-<p>输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<p><strong>成功结果如下</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E8%BF%9E%E6%8E%A5%E9%AA%8C%E8%AF%81.png" alt="" /></p>
-<p><strong>至此已安装和配置完成～</strong></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cloudflare WARP</title>
-    <url>/2023/05/11/Cloudflare%20WARP/</url>
-    <content><![CDATA[<h2 id="一键安装cloudflare-warp"><a class="markdownIt-Anchor" href="#一键安装cloudflare-warp"></a> 一键安装Cloudflare WARP</h2>
-<h3 id="项目地址github"><a class="markdownIt-Anchor" href="#项目地址github"></a> 项目地址：<a href="https://github.com/P3TERX/warp.sh">GitHub</a></h3>
-<h3 id="自动配置-warp-wireguard-双栈全局网络"><a class="markdownIt-Anchor" href="#自动配置-warp-wireguard-双栈全局网络"></a> 自动配置 WARP WireGuard 双栈全局网络</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) d</span><br></pre></td></tr></table></figure>
-<h3 id="ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"><a class="markdownIt-Anchor" href="#ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"></a> IPv4/IPv6 网络中的一个出口走 WARP Wire­Guard 网络</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 自动配置 WARP WireGuard IPv4 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 4</span><br><span class="line"># 自动配置 WARP WireGuard IPv6 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 6</span><br></pre></td></tr></table></figure>
-<h3 id="重启-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#重启-warp-wireguard-网络接口"></a> 重启 WARP WireGuard 网络接口</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart wg-quick@wgcf</span><br></pre></td></tr></table></figure>
-<h3 id="禁用-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#禁用-warp-wireguard-网络接口"></a> 禁用 WARP WireGuard 网络接口</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable wg-quick@wgcf --now</span><br></pre></td></tr></table></figure>
-<h3 id="自动配置-warp-官方客户端-socks5-代理"><a class="markdownIt-Anchor" href="#自动配置-warp-官方客户端-socks5-代理"></a> 自动配置 WARP 官方客户端 SOCKS5 代理</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) s5</span><br></pre></td></tr></table></figure>
-<h3 id="卸载-warp-官方-linux-客户端"><a class="markdownIt-Anchor" href="#卸载-warp-官方-linux-客户端"></a> 卸载 WARP 官方 Linux 客户端</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) uninstall</span><br></pre></td></tr></table></figure>
-<h2 id="warp-脚本功能菜单"><a class="markdownIt-Anchor" href="#warp-脚本功能菜单"></a> WARP 脚本功能菜单</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) menu</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>笔记</category>
-        <category>服务器</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>服务器</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>E5开发者计划续订</title>
-    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
-    <content><![CDATA[<p><strong>原教程已不适用，未来出现稳定方法再更新！</strong></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Microsoft 365</tag>
-        <tag>E5开发</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MacOS应用推荐</title>
     <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
@@ -446,8 +446,8 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>笔记</category>
         <category>教程</category>
+        <category>笔记</category>
       </categories>
       <tags>
         <tag>ChatGPT</tag>
@@ -458,23 +458,23 @@
     <title>申请免费域名</title>
     <url>/2023/05/21/%E7%94%B3%E8%AF%B7%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/</url>
     <content><![CDATA[<h2 id="注册地址"><a class="markdownIt-Anchor" href="#注册地址"></a> <a href="https://nic.eu.org/arf/en/contact/create/">注册地址</a></h2>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%B3%A8%E5%86%8C%E4%BF%A1%E6%81%AF%E5%A1%AB%E5%86%99.png" alt="" /></p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%B3%A8%E5%86%8C%E4%BF%A1%E6%81%AF%E5%A1%AB%E5%86%99.png" width="50%" height="50%" />
 <p>名字填写格式为 姓+名，注意中间有空格，不然会报错格式错误</p>
 <h2 id="邮箱验证"><a class="markdownIt-Anchor" href="#邮箱验证"></a> 邮箱验证</h2>
 <p>提交注册信息后，注意查看邮箱邮件，邮件中包含账户信息用户名，点击验证链接进行验证</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E9%82%AE%E4%BB%B6.png" alt="" /></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E8%B4%A6%E5%8F%B7%E4%BF%A1%E6%81%AF%E9%AA%8C%E8%AF%81.png" alt="" /></p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E9%82%AE%E4%BB%B6.png" width="50%" height="50%" />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E8%B4%A6%E5%8F%B7%E4%BF%A1%E6%81%AF%E9%AA%8C%E8%AF%81.png" width="50%" height="50%" />
 <h2 id="创建域名"><a class="markdownIt-Anchor" href="#创建域名"></a> 创建域名</h2>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%88%9B%E5%BB%BA%E6%96%B0%E5%9F%9F%E5%90%8D.png" alt="" /></p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7.png" alt="" /></p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%88%9B%E5%BB%BA%E6%96%B0%E5%9F%9F%E5%90%8D.png" width="50%" height="50%" />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7.png" width="50%" height="50%" />
 <h2 id="设置dns服务器"><a class="markdownIt-Anchor" href="#设置dns服务器"></a> 设置dns服务器</h2>
 <p>可以找到自己合适的dns服务器商，这里以为Cloudflare为例</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">amanda.ns.cloudflare.com</span><br><span class="line">owen.ns.cloudflare.com</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/dns%E6%9C%8D%E5%8A%A1%E5%99%A8.png" alt="" /></p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/dns%E6%9C%8D%E5%8A%A1%E5%99%A8.png" width="50%" height="50%" />
 <p>如果域名已被注册则提示</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%A4%B1%E8%B4%A5.png" alt="" /></p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%A4%B1%E8%B4%A5.png" width="50%" height="50%" />
 <p>如果域名未被注册，则提示</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%88%90%E5%8A%9F.png" alt="" /></p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%88%90%E5%8A%9F.png" width="50%" height="50%" />
 ]]></content>
       <categories>
         <category>教程</category>
