@@ -5,56 +5,15 @@
     <url>/2023/05/04/AList%E6%8C%82%E8%BD%BD%E4%BA%91%E7%9B%98/</url>
     <content><![CDATA[<h2 id="挂载onderive"><a class="markdownIt-Anchor" href="#挂载onderive"></a> 挂载OnDerive</h2>
 <h3 id="视频教程挂载onderive视频"><a class="markdownIt-Anchor" href="#视频教程挂载onderive视频"></a> 视频教程：<a href="https://www.bilibili.com/video/BV1Ro4y1s725/?spm_id_from=888.80997.embed_other.whitelist&amp;vd_source=dad82534b29c1223ba0cff51a716d889">挂载OnDerive视频</a></h3>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="https://player.bilibili.com/player.html?aid=396559519&&page=1&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+<div class="bilibili">
+    <iframe src="//player.bilibili.com/player.html?aid=396559519&&page=1&as_wide=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
 <h3 id="图文教程挂载onderive图文"><a class="markdownIt-Anchor" href="#图文教程挂载onderive图文"></a> 图文教程：<a href="https://alist.nn.ci/zh/guide/drivers/onedrive_app.html#%E5%A5%BD%E5%A4%84%E4%BB%A5%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">挂载OnDerive图文</a></h3>
 <h2 id="挂载阿里云盘-open"><a class="markdownIt-Anchor" href="#挂载阿里云盘-open"></a> 挂载阿里云盘 Open</h2>
 <h3 id="图文教程挂载阿里云盘-open"><a class="markdownIt-Anchor" href="#图文教程挂载阿里云盘-open"></a> 图文教程：<a href="https://alist.nn.ci/zh/guide/drivers/aliyundrive_open.html">挂载阿里云盘 Open</a></h3>
 ]]></content>
       <tags>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>E5开发者计划续订</title>
-    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
-    <content><![CDATA[<p><strong>原教程已不适用，未来出现稳定方法再更新！</strong></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Microsoft 365</tag>
-        <tag>E5开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cloudflare WARP</title>
-    <url>/2023/05/11/Cloudflare%20WARP/</url>
-    <content><![CDATA[<h2 id="一键安装cloudflare-warp"><a class="markdownIt-Anchor" href="#一键安装cloudflare-warp"></a> 一键安装Cloudflare WARP</h2>
-<h3 id="项目地址github"><a class="markdownIt-Anchor" href="#项目地址github"></a> 项目地址：<a href="https://github.com/P3TERX/warp.sh">GitHub</a></h3>
-<h3 id="自动配置-warp-wireguard-双栈全局网络"><a class="markdownIt-Anchor" href="#自动配置-warp-wireguard-双栈全局网络"></a> 自动配置 WARP WireGuard 双栈全局网络</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) d</span><br></pre></td></tr></table></figure>
-<h3 id="ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"><a class="markdownIt-Anchor" href="#ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"></a> IPv4/IPv6 网络中的一个出口走 WARP Wire­Guard 网络</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 自动配置 WARP WireGuard IPv4 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 4</span><br><span class="line"># 自动配置 WARP WireGuard IPv6 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 6</span><br></pre></td></tr></table></figure>
-<h3 id="重启-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#重启-warp-wireguard-网络接口"></a> 重启 WARP WireGuard 网络接口</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart wg-quick@wgcf</span><br></pre></td></tr></table></figure>
-<h3 id="禁用-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#禁用-warp-wireguard-网络接口"></a> 禁用 WARP WireGuard 网络接口</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable wg-quick@wgcf --now</span><br></pre></td></tr></table></figure>
-<h3 id="自动配置-warp-官方客户端-socks5-代理"><a class="markdownIt-Anchor" href="#自动配置-warp-官方客户端-socks5-代理"></a> 自动配置 WARP 官方客户端 SOCKS5 代理</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) s5</span><br></pre></td></tr></table></figure>
-<h3 id="卸载-warp-官方-linux-客户端"><a class="markdownIt-Anchor" href="#卸载-warp-官方-linux-客户端"></a> 卸载 WARP 官方 Linux 客户端</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) uninstall</span><br></pre></td></tr></table></figure>
-<h2 id="warp-脚本功能菜单"><a class="markdownIt-Anchor" href="#warp-脚本功能菜单"></a> WARP 脚本功能菜单</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) menu</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>服务器</category>
-        <category>笔记</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>服务器</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -73,6 +32,19 @@
       <tags>
         <tag>Android</tag>
         <tag>app</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>E5开发者计划续订</title>
+    <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
+    <content><![CDATA[<p><strong>原教程已不适用，未来出现稳定方法再更新！</strong></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Microsoft 365</tag>
+        <tag>E5开发</tag>
       </tags>
   </entry>
   <entry>
@@ -146,6 +118,95 @@
       <tags>
         <tag>教程</tag>
         <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Cloudflare WARP</title>
+    <url>/2023/05/11/Cloudflare%20WARP/</url>
+    <content><![CDATA[<h2 id="一键安装cloudflare-warp"><a class="markdownIt-Anchor" href="#一键安装cloudflare-warp"></a> 一键安装Cloudflare WARP</h2>
+<h3 id="项目地址github"><a class="markdownIt-Anchor" href="#项目地址github"></a> 项目地址：<a href="https://github.com/P3TERX/warp.sh">GitHub</a></h3>
+<h3 id="自动配置-warp-wireguard-双栈全局网络"><a class="markdownIt-Anchor" href="#自动配置-warp-wireguard-双栈全局网络"></a> 自动配置 WARP WireGuard 双栈全局网络</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) d</span><br></pre></td></tr></table></figure>
+<h3 id="ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"><a class="markdownIt-Anchor" href="#ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"></a> IPv4/IPv6 网络中的一个出口走 WARP Wire­Guard 网络</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 自动配置 WARP WireGuard IPv4 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 4</span><br><span class="line"># 自动配置 WARP WireGuard IPv6 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 6</span><br></pre></td></tr></table></figure>
+<h3 id="重启-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#重启-warp-wireguard-网络接口"></a> 重启 WARP WireGuard 网络接口</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart wg-quick@wgcf</span><br></pre></td></tr></table></figure>
+<h3 id="禁用-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#禁用-warp-wireguard-网络接口"></a> 禁用 WARP WireGuard 网络接口</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable wg-quick@wgcf --now</span><br></pre></td></tr></table></figure>
+<h3 id="自动配置-warp-官方客户端-socks5-代理"><a class="markdownIt-Anchor" href="#自动配置-warp-官方客户端-socks5-代理"></a> 自动配置 WARP 官方客户端 SOCKS5 代理</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) s5</span><br></pre></td></tr></table></figure>
+<h3 id="卸载-warp-官方-linux-客户端"><a class="markdownIt-Anchor" href="#卸载-warp-官方-linux-客户端"></a> 卸载 WARP 官方 Linux 客户端</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) uninstall</span><br></pre></td></tr></table></figure>
+<h2 id="warp-脚本功能菜单"><a class="markdownIt-Anchor" href="#warp-脚本功能菜单"></a> WARP 脚本功能菜单</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) menu</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>服务器</category>
+        <category>笔记</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown笔记</title>
+    <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
+<h2 id="1标题"><a class="markdownIt-Anchor" href="#1标题"></a> 1.标题</h2>
+<h1 id="一级标题-写法-标题名"><a class="markdownIt-Anchor" href="#一级标题-写法-标题名"></a> 一级标题    写法:  # 标题名</h1>
+<h2 id="二级标题-写法-标题名"><a class="markdownIt-Anchor" href="#二级标题-写法-标题名"></a> 二级标题    写法:  ## 标题名</h2>
+<h3 id="三级标题-写法-标题名"><a class="markdownIt-Anchor" href="#三级标题-写法-标题名"></a> 三级标题    写法:  ### 标题名</h3>
+<h2 id="2空格-写法-nbsp空格"><a class="markdownIt-Anchor" href="#2空格-写法-nbsp空格"></a> 2.空格    写法:  &amp;nbsp+空格;</h2>
+<p>    空两格效果</p>
+<p>测试测试测试测试测试测试测试</p>
+<h1 id="typora快捷键"><a class="markdownIt-Anchor" href="#typora快捷键"></a> Typora快捷键</h1>
+<p>1.新建：Ctrl+N<br />
+2.打开：Ctrl+O<br />
+3.打印：Ctrl+P<br />
+4.保存：Ctrl+S<br />
+5.另存为：Ctrl+Shift+S<br />
+6.偏好设置：Ctrl+,<br />
+7.关闭：Ctrl+W<br />
+8.查找：Ctrl+F</p>
+<p>一级标题：⌘1 (command + 1)<br />
+二级标题：⌘2 (command + 2)<br />
+三级标题：⌘3 (command + 3)</p>
+<p>表格：⌥⌘T (option + command + T)<br />
+代码块：⌥⌘C (option + command + C)<br />
+公式块：⌥⌘B (option + command + B)</p>
+<p>引用：⌥⌘Q (option + command + Q)<br />
+有序列表：⌥⌘O (option + command + O)<br />
+无序列表：⌥⌘U (option + command + U)</p>
+<p>任务列表：⌥⌘X (option + command + X)<br />
+列表缩进：<br />
+​ 增加缩进：⌘] ( command + ])<br />
+​ 减少缩进：⌘[ ( command + [)</p>
+<p>链接引用：⌥⌘L (option + command + L)<br />
+脚注：⌥⌘R (option + command + R)</p>
+<p>水平分割线：⇧⌘- (shift + command + -)</p>
+<p>加粗：⌘B (command + B)<br />
+斜体：⌘I (command + I)<br />
+下划线：⌘U (command + U)</p>
+<p>代码：⇧⌘<code>(shift + command +</code>)</p>
+<p>内联公式：⌃M (control + M)<br />
+删除线：⌃~ (control + ~)<br />
+注释：⌃- (control + -)</p>
+<p>超链接:⌘K (command + K)<br />
+图像：⌃⌘I (control + command + U)<br />
+清除样式：⌘\ (command + )</p>
+<p>显示/隐藏侧边栏：⇧⌘L (shift + command + L)<br />
+大纲视图：⌃⌘1 (control + command + 1)<br />
+文档列表视图：⌃⌘2 (control + command +2)<br />
+文件树视图：⌃⌘3 (control + command + 3)</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -294,65 +355,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown笔记</title>
-    <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
-<h2 id="1标题"><a class="markdownIt-Anchor" href="#1标题"></a> 1.标题</h2>
-<h1 id="一级标题-写法-标题名"><a class="markdownIt-Anchor" href="#一级标题-写法-标题名"></a> 一级标题    写法:  # 标题名</h1>
-<h2 id="二级标题-写法-标题名"><a class="markdownIt-Anchor" href="#二级标题-写法-标题名"></a> 二级标题    写法:  ## 标题名</h2>
-<h3 id="三级标题-写法-标题名"><a class="markdownIt-Anchor" href="#三级标题-写法-标题名"></a> 三级标题    写法:  ### 标题名</h3>
-<h2 id="2空格-写法-nbsp空格"><a class="markdownIt-Anchor" href="#2空格-写法-nbsp空格"></a> 2.空格    写法:  &amp;nbsp+空格;</h2>
-<p>    空两格效果</p>
-<p>测试测试测试测试测试测试测试</p>
-<h1 id="typora快捷键"><a class="markdownIt-Anchor" href="#typora快捷键"></a> Typora快捷键</h1>
-<p>1.新建：Ctrl+N<br />
-2.打开：Ctrl+O<br />
-3.打印：Ctrl+P<br />
-4.保存：Ctrl+S<br />
-5.另存为：Ctrl+Shift+S<br />
-6.偏好设置：Ctrl+,<br />
-7.关闭：Ctrl+W<br />
-8.查找：Ctrl+F</p>
-<p>一级标题：⌘1 (command + 1)<br />
-二级标题：⌘2 (command + 2)<br />
-三级标题：⌘3 (command + 3)</p>
-<p>表格：⌥⌘T (option + command + T)<br />
-代码块：⌥⌘C (option + command + C)<br />
-公式块：⌥⌘B (option + command + B)</p>
-<p>引用：⌥⌘Q (option + command + Q)<br />
-有序列表：⌥⌘O (option + command + O)<br />
-无序列表：⌥⌘U (option + command + U)</p>
-<p>任务列表：⌥⌘X (option + command + X)<br />
-列表缩进：<br />
-​ 增加缩进：⌘] ( command + ])<br />
-​ 减少缩进：⌘[ ( command + [)</p>
-<p>链接引用：⌥⌘L (option + command + L)<br />
-脚注：⌥⌘R (option + command + R)</p>
-<p>水平分割线：⇧⌘- (shift + command + -)</p>
-<p>加粗：⌘B (command + B)<br />
-斜体：⌘I (command + I)<br />
-下划线：⌘U (command + U)</p>
-<p>代码：⇧⌘<code>(shift + command +</code>)</p>
-<p>内联公式：⌃M (control + M)<br />
-删除线：⌃~ (control + ~)<br />
-注释：⌃- (control + -)</p>
-<p>超链接:⌘K (command + K)<br />
-图像：⌃⌘I (control + command + U)<br />
-清除样式：⌘\ (command + )</p>
-<p>显示/隐藏侧边栏：⇧⌘L (shift + command + L)<br />
-大纲视图：⌃⌘1 (control + command + 1)<br />
-文档列表视图：⌃⌘2 (control + command +2)<br />
-文件树视图：⌃⌘3 (control + command + 3)</p>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MacOS应用推荐</title>
     <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
@@ -376,6 +378,31 @@
       <tags>
         <tag>app</tag>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>构建开源的GPT4</title>
+    <url>/2023/05/10/%E6%9E%84%E5%BB%BA%E5%BC%80%E6%BA%90%E7%9A%84GPT4/</url>
+    <content><![CDATA[<h3 id="github开源地址"><a class="markdownIt-Anchor" href="#github开源地址"></a> <a href="https://github.com/xtekky/gpt4free">GitHub开源地址</a></h3>
+<h3 id="克隆文件至本地"><a class="markdownIt-Anchor" href="#克隆文件至本地"></a> 克隆文件至本地</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/xtekky/gpt4free.git</span><br></pre></td></tr></table></figure>
+<h3 id="下载依赖"><a class="markdownIt-Anchor" href="#下载依赖"></a> 下载依赖</h3>
+<p><strong>进入gpt4free根目录执行</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip3 install -r requirements.txt</span><br></pre></td></tr></table></figure>
+<h3 id="将gui拷贝至gpt4free根目录"><a class="markdownIt-Anchor" href="#将gui拷贝至gpt4free根目录"></a> 将gui拷贝至gpt4free根目录</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp gui/streamlit_app.py .</span><br></pre></td></tr></table></figure>
+<h3 id="运行"><a class="markdownIt-Anchor" href="#运行"></a> 运行</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python3 -m streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
+<p><strong>或者</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>GPT</tag>
       </tags>
   </entry>
   <entry>
@@ -417,6 +444,36 @@
       <tags>
         <tag>Git</tag>
         <tag>GitHub</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>申请免费域名</title>
+    <url>/2023/05/21/%E7%94%B3%E8%AF%B7%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/</url>
+    <content><![CDATA[<h2 id="注册地址"><a class="markdownIt-Anchor" href="#注册地址"></a> <a href="https://nic.eu.org/arf/en/contact/create/">注册地址</a></h2>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%B3%A8%E5%86%8C%E4%BF%A1%E6%81%AF%E5%A1%AB%E5%86%99.png" width="50%" height="50%" />
+<p>名字填写格式为 姓+名，注意中间有空格，不然会报错格式错误</p>
+<h2 id="邮箱验证"><a class="markdownIt-Anchor" href="#邮箱验证"></a> 邮箱验证</h2>
+<p>提交注册信息后，注意查看邮箱邮件，邮件中包含账户信息用户名，点击验证链接进行验证</p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E9%82%AE%E4%BB%B6.png" width="50%" height="50%" />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E8%B4%A6%E5%8F%B7%E4%BF%A1%E6%81%AF%E9%AA%8C%E8%AF%81.png" width="50%" height="50%" />
+<h2 id="创建域名"><a class="markdownIt-Anchor" href="#创建域名"></a> 创建域名</h2>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%88%9B%E5%BB%BA%E6%96%B0%E5%9F%9F%E5%90%8D.png" width="50%" height="50%" />
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7.png" width="50%" height="50%" />
+<h2 id="设置dns服务器"><a class="markdownIt-Anchor" href="#设置dns服务器"></a> 设置dns服务器</h2>
+<p>可以找到自己合适的dns服务器商，这里以为Cloudflare为例</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">amanda.ns.cloudflare.com</span><br><span class="line">owen.ns.cloudflare.com</span><br></pre></td></tr></table></figure>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/dns%E6%9C%8D%E5%8A%A1%E5%99%A8.png" width="50%" height="50%" />
+<p>如果域名已被注册则提示</p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%A4%B1%E8%B4%A5.png" width="50%" height="50%" />
+<p>如果域名未被注册，则提示</p>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%88%90%E5%8A%9F.png" width="50%" height="50%" />
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>域名</tag>
+        <tag>免费</tag>
       </tags>
   </entry>
   <entry>
@@ -521,61 +578,6 @@ LuCI --&gt; Themes # 选择喜欢的主题，可以选多个</p>
       </categories>
       <tags>
         <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>构建开源的GPT4</title>
-    <url>/2023/05/10/%E6%9E%84%E5%BB%BA%E5%BC%80%E6%BA%90%E7%9A%84GPT4/</url>
-    <content><![CDATA[<h3 id="github开源地址"><a class="markdownIt-Anchor" href="#github开源地址"></a> <a href="https://github.com/xtekky/gpt4free">GitHub开源地址</a></h3>
-<h3 id="克隆文件至本地"><a class="markdownIt-Anchor" href="#克隆文件至本地"></a> 克隆文件至本地</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/xtekky/gpt4free.git</span><br></pre></td></tr></table></figure>
-<h3 id="下载依赖"><a class="markdownIt-Anchor" href="#下载依赖"></a> 下载依赖</h3>
-<p><strong>进入gpt4free根目录执行</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip3 install -r requirements.txt</span><br></pre></td></tr></table></figure>
-<h3 id="将gui拷贝至gpt4free根目录"><a class="markdownIt-Anchor" href="#将gui拷贝至gpt4free根目录"></a> 将gui拷贝至gpt4free根目录</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp gui/streamlit_app.py .</span><br></pre></td></tr></table></figure>
-<h3 id="运行"><a class="markdownIt-Anchor" href="#运行"></a> 运行</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python3 -m streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
-<p><strong>或者</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>ChatGPT</tag>
-        <tag>GPT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>申请免费域名</title>
-    <url>/2023/05/21/%E7%94%B3%E8%AF%B7%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/</url>
-    <content><![CDATA[<h2 id="注册地址"><a class="markdownIt-Anchor" href="#注册地址"></a> <a href="https://nic.eu.org/arf/en/contact/create/">注册地址</a></h2>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%B3%A8%E5%86%8C%E4%BF%A1%E6%81%AF%E5%A1%AB%E5%86%99.png" width="50%" height="50%" />
-<p>名字填写格式为 姓+名，注意中间有空格，不然会报错格式错误</p>
-<h2 id="邮箱验证"><a class="markdownIt-Anchor" href="#邮箱验证"></a> 邮箱验证</h2>
-<p>提交注册信息后，注意查看邮箱邮件，邮件中包含账户信息用户名，点击验证链接进行验证</p>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E9%82%AE%E4%BB%B6.png" width="50%" height="50%" />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E8%B4%A6%E5%8F%B7%E4%BF%A1%E6%81%AF%E9%AA%8C%E8%AF%81.png" width="50%" height="50%" />
-<h2 id="创建域名"><a class="markdownIt-Anchor" href="#创建域名"></a> 创建域名</h2>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%88%9B%E5%BB%BA%E6%96%B0%E5%9F%9F%E5%90%8D.png" width="50%" height="50%" />
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7.png" width="50%" height="50%" />
-<h2 id="设置dns服务器"><a class="markdownIt-Anchor" href="#设置dns服务器"></a> 设置dns服务器</h2>
-<p>可以找到自己合适的dns服务器商，这里以为Cloudflare为例</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">amanda.ns.cloudflare.com</span><br><span class="line">owen.ns.cloudflare.com</span><br></pre></td></tr></table></figure>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/dns%E6%9C%8D%E5%8A%A1%E5%99%A8.png" width="50%" height="50%" />
-<p>如果域名已被注册则提示</p>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E5%A4%B1%E8%B4%A5.png" width="50%" height="50%" />
-<p>如果域名未被注册，则提示</p>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-21/%E6%88%90%E5%8A%9F.png" width="50%" height="50%" />
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>域名</tag>
-        <tag>免费</tag>
       </tags>
   </entry>
 </search>
