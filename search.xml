@@ -33,6 +33,36 @@
       </tags>
   </entry>
   <entry>
+    <title>Cloudflare WARP</title>
+    <url>/2023/05/11/Cloudflare%20WARP/</url>
+    <content><![CDATA[<h2 id="一键安装cloudflare-warp"><a class="markdownIt-Anchor" href="#一键安装cloudflare-warp"></a> 一键安装Cloudflare WARP</h2>
+<h3 id="项目地址github"><a class="markdownIt-Anchor" href="#项目地址github"></a> 项目地址：<a href="https://github.com/P3TERX/warp.sh">GitHub</a></h3>
+<h3 id="自动配置-warp-wireguard-双栈全局网络"><a class="markdownIt-Anchor" href="#自动配置-warp-wireguard-双栈全局网络"></a> 自动配置 WARP WireGuard 双栈全局网络</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) d</span><br></pre></td></tr></table></figure>
+<h3 id="ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"><a class="markdownIt-Anchor" href="#ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"></a> IPv4/IPv6 网络中的一个出口走 WARP Wire­Guard 网络</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 自动配置 WARP WireGuard IPv4 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 4</span><br><span class="line"># 自动配置 WARP WireGuard IPv6 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 6</span><br></pre></td></tr></table></figure>
+<h3 id="重启-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#重启-warp-wireguard-网络接口"></a> 重启 WARP WireGuard 网络接口</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart wg-quick@wgcf</span><br></pre></td></tr></table></figure>
+<h3 id="禁用-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#禁用-warp-wireguard-网络接口"></a> 禁用 WARP WireGuard 网络接口</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable wg-quick@wgcf --now</span><br></pre></td></tr></table></figure>
+<h3 id="自动配置-warp-官方客户端-socks5-代理"><a class="markdownIt-Anchor" href="#自动配置-warp-官方客户端-socks5-代理"></a> 自动配置 WARP 官方客户端 SOCKS5 代理</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) s5</span><br></pre></td></tr></table></figure>
+<h3 id="卸载-warp-官方-linux-客户端"><a class="markdownIt-Anchor" href="#卸载-warp-官方-linux-客户端"></a> 卸载 WARP 官方 Linux 客户端</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) uninstall</span><br></pre></td></tr></table></figure>
+<h2 id="warp-脚本功能菜单"><a class="markdownIt-Anchor" href="#warp-脚本功能菜单"></a> WARP 脚本功能菜单</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) menu</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>服务器</category>
+        <category>笔记</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>E5开发者计划续订</title>
     <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
     <content><![CDATA[<p><strong>原教程已不适用，未来出现稳定方法再更新！</strong></p>
@@ -116,149 +146,6 @@
       <tags>
         <tag>教程</tag>
         <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cloudflare WARP</title>
-    <url>/2023/05/11/Cloudflare%20WARP/</url>
-    <content><![CDATA[<h2 id="一键安装cloudflare-warp"><a class="markdownIt-Anchor" href="#一键安装cloudflare-warp"></a> 一键安装Cloudflare WARP</h2>
-<h3 id="项目地址github"><a class="markdownIt-Anchor" href="#项目地址github"></a> 项目地址：<a href="https://github.com/P3TERX/warp.sh">GitHub</a></h3>
-<h3 id="自动配置-warp-wireguard-双栈全局网络"><a class="markdownIt-Anchor" href="#自动配置-warp-wireguard-双栈全局网络"></a> 自动配置 WARP WireGuard 双栈全局网络</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) d</span><br></pre></td></tr></table></figure>
-<h3 id="ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"><a class="markdownIt-Anchor" href="#ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"></a> IPv4/IPv6 网络中的一个出口走 WARP Wire­Guard 网络</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 自动配置 WARP WireGuard IPv4 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 4</span><br><span class="line"># 自动配置 WARP WireGuard IPv6 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 6</span><br></pre></td></tr></table></figure>
-<h3 id="重启-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#重启-warp-wireguard-网络接口"></a> 重启 WARP WireGuard 网络接口</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart wg-quick@wgcf</span><br></pre></td></tr></table></figure>
-<h3 id="禁用-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#禁用-warp-wireguard-网络接口"></a> 禁用 WARP WireGuard 网络接口</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable wg-quick@wgcf --now</span><br></pre></td></tr></table></figure>
-<h3 id="自动配置-warp-官方客户端-socks5-代理"><a class="markdownIt-Anchor" href="#自动配置-warp-官方客户端-socks5-代理"></a> 自动配置 WARP 官方客户端 SOCKS5 代理</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) s5</span><br></pre></td></tr></table></figure>
-<h3 id="卸载-warp-官方-linux-客户端"><a class="markdownIt-Anchor" href="#卸载-warp-官方-linux-客户端"></a> 卸载 WARP 官方 Linux 客户端</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) uninstall</span><br></pre></td></tr></table></figure>
-<h2 id="warp-脚本功能菜单"><a class="markdownIt-Anchor" href="#warp-脚本功能菜单"></a> WARP 脚本功能菜单</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) menu</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>服务器</category>
-        <category>笔记</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>服务器</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MacOS应用推荐</title>
-    <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
-]]></content>
-      <categories>
-        <category>应用推荐</category>
-      </categories>
-      <tags>
-        <tag>app</tag>
-        <tag>MacOS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown笔记</title>
-    <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
-<h2 id="1标题"><a class="markdownIt-Anchor" href="#1标题"></a> 1.标题</h2>
-<h1 id="一级标题-写法-标题名"><a class="markdownIt-Anchor" href="#一级标题-写法-标题名"></a> 一级标题    写法:  # 标题名</h1>
-<h2 id="二级标题-写法-标题名"><a class="markdownIt-Anchor" href="#二级标题-写法-标题名"></a> 二级标题    写法:  ## 标题名</h2>
-<h3 id="三级标题-写法-标题名"><a class="markdownIt-Anchor" href="#三级标题-写法-标题名"></a> 三级标题    写法:  ### 标题名</h3>
-<h2 id="2空格-写法-nbsp空格"><a class="markdownIt-Anchor" href="#2空格-写法-nbsp空格"></a> 2.空格    写法:  &amp;nbsp+空格;</h2>
-<p>    空两格效果</p>
-<p>测试测试测试测试测试测试测试</p>
-<h1 id="typora快捷键"><a class="markdownIt-Anchor" href="#typora快捷键"></a> Typora快捷键</h1>
-<p>1.新建：Ctrl+N<br />
-2.打开：Ctrl+O<br />
-3.打印：Ctrl+P<br />
-4.保存：Ctrl+S<br />
-5.另存为：Ctrl+Shift+S<br />
-6.偏好设置：Ctrl+,<br />
-7.关闭：Ctrl+W<br />
-8.查找：Ctrl+F</p>
-<p>一级标题：⌘1 (command + 1)<br />
-二级标题：⌘2 (command + 2)<br />
-三级标题：⌘3 (command + 3)</p>
-<p>表格：⌥⌘T (option + command + T)<br />
-代码块：⌥⌘C (option + command + C)<br />
-公式块：⌥⌘B (option + command + B)</p>
-<p>引用：⌥⌘Q (option + command + Q)<br />
-有序列表：⌥⌘O (option + command + O)<br />
-无序列表：⌥⌘U (option + command + U)</p>
-<p>任务列表：⌥⌘X (option + command + X)<br />
-列表缩进：<br />
-​ 增加缩进：⌘] ( command + ])<br />
-​ 减少缩进：⌘[ ( command + [)</p>
-<p>链接引用：⌥⌘L (option + command + L)<br />
-脚注：⌥⌘R (option + command + R)</p>
-<p>水平分割线：⇧⌘- (shift + command + -)</p>
-<p>加粗：⌘B (command + B)<br />
-斜体：⌘I (command + I)<br />
-下划线：⌘U (command + U)</p>
-<p>代码：⇧⌘<code>(shift + command +</code>)</p>
-<p>内联公式：⌃M (control + M)<br />
-删除线：⌃~ (control + ~)<br />
-注释：⌃- (control + -)</p>
-<p>超链接:⌘K (command + K)<br />
-图像：⌃⌘I (control + command + U)<br />
-清除样式：⌘\ (command + )</p>
-<p>显示/隐藏侧边栏：⇧⌘L (shift + command + L)<br />
-大纲视图：⌃⌘1 (control + command + 1)<br />
-文档列表视图：⌃⌘2 (control + command +2)<br />
-文件树视图：⌃⌘3 (control + command + 3)</p>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>将本地项目推送到GitHub</title>
-    <url>/2023/04/20/%E5%B0%86%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E6%8E%A8%E9%80%81%E5%88%B0GitHub/</url>
-    <content><![CDATA[<p><strong>说明：</strong></p>
-<p>1.默认已安装和配置git，如果没配置好请跳转<a href="http://epochge.com/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/">Git安装与配置</a></p>
-<p>2.仓库名字：Test</p>
-<h3 id="1在github创建新test仓库"><a class="markdownIt-Anchor" href="#1在github创建新test仓库"></a> 1.在GitHub创建新Test仓库</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="" /></p>
-<h3 id="2项目初始化"><a class="markdownIt-Anchor" href="#2项目初始化"></a> 2.项目初始化</h3>
-<p>进入项目根目录执行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%96%87%E4%BB%B6%E5%88%9D%E5%A7%8B%E5%8C%96.png" alt="" /></p>
-<p>初始化后在项目目录多出了.git文件夹</p>
-<h3 id="3查看提交状态"><a class="markdownIt-Anchor" href="#3查看提交状态"></a> 3.查看提交状态</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E7%8A%B6%E6%80%81%E6%9F%A5%E8%AF%A2.png" alt="" /></p>
-<h3 id="4git-add-添加内容到索引"><a class="markdownIt-Anchor" href="#4git-add-添加内容到索引"></a> 4.git add  添加内容到索引</h3>
-<p>输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add A</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E5%90%8E%E7%8A%B6%E6%80%81.png" alt="" /></p>
-<h3 id="5提交注释"><a class="markdownIt-Anchor" href="#5提交注释"></a> 5.提交注释</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit -m &#x27;内容&#x27;</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E6%B3%A8%E9%87%8A.png" alt="" /></p>
-<h3 id="6将本地-文件与github仓库关联"><a class="markdownIt-Anchor" href="#6将本地-文件与github仓库关联"></a> 6.将本地 文件与GitHub仓库关联</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git remote add origin 仓库链接</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%9C%AC%E5%9C%B0%E5%85%B3%E8%81%94GitHub%E4%BB%93%E5%BA%93.png" alt="" /></p>
-<h3 id="7推送到github远程仓库"><a class="markdownIt-Anchor" href="#7推送到github远程仓库"></a> 7.推送到GitHub远程仓库</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E4%B8%8A%E4%BC%A0%E6%88%90%E5%8A%9F.png" alt="" /></p>
-<p><strong>至此教程完成，这只是一个关于Git和GitHub的初步应用，实际上它们还有很多强大的功能需要你去探索</strong></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-        <tag>GitHub</tag>
       </tags>
   </entry>
   <entry>
@@ -411,6 +298,155 @@
       </tags>
   </entry>
   <entry>
+    <title>MacOS应用推荐</title>
+    <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
+]]></content>
+      <categories>
+        <category>应用推荐</category>
+      </categories>
+      <tags>
+        <tag>app</tag>
+        <tag>MacOS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown笔记</title>
+    <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
+<h2 id="1标题"><a class="markdownIt-Anchor" href="#1标题"></a> 1.标题</h2>
+<h1 id="一级标题-写法-标题名"><a class="markdownIt-Anchor" href="#一级标题-写法-标题名"></a> 一级标题    写法:  # 标题名</h1>
+<h2 id="二级标题-写法-标题名"><a class="markdownIt-Anchor" href="#二级标题-写法-标题名"></a> 二级标题    写法:  ## 标题名</h2>
+<h3 id="三级标题-写法-标题名"><a class="markdownIt-Anchor" href="#三级标题-写法-标题名"></a> 三级标题    写法:  ### 标题名</h3>
+<h2 id="2空格-写法-nbsp空格"><a class="markdownIt-Anchor" href="#2空格-写法-nbsp空格"></a> 2.空格    写法:  &amp;nbsp+空格;</h2>
+<p>    空两格效果</p>
+<p>测试测试测试测试测试测试测试</p>
+<h1 id="typora快捷键"><a class="markdownIt-Anchor" href="#typora快捷键"></a> Typora快捷键</h1>
+<p>1.新建：Ctrl+N<br />
+2.打开：Ctrl+O<br />
+3.打印：Ctrl+P<br />
+4.保存：Ctrl+S<br />
+5.另存为：Ctrl+Shift+S<br />
+6.偏好设置：Ctrl+,<br />
+7.关闭：Ctrl+W<br />
+8.查找：Ctrl+F</p>
+<p>一级标题：⌘1 (command + 1)<br />
+二级标题：⌘2 (command + 2)<br />
+三级标题：⌘3 (command + 3)</p>
+<p>表格：⌥⌘T (option + command + T)<br />
+代码块：⌥⌘C (option + command + C)<br />
+公式块：⌥⌘B (option + command + B)</p>
+<p>引用：⌥⌘Q (option + command + Q)<br />
+有序列表：⌥⌘O (option + command + O)<br />
+无序列表：⌥⌘U (option + command + U)</p>
+<p>任务列表：⌥⌘X (option + command + X)<br />
+列表缩进：<br />
+​ 增加缩进：⌘] ( command + ])<br />
+​ 减少缩进：⌘[ ( command + [)</p>
+<p>链接引用：⌥⌘L (option + command + L)<br />
+脚注：⌥⌘R (option + command + R)</p>
+<p>水平分割线：⇧⌘- (shift + command + -)</p>
+<p>加粗：⌘B (command + B)<br />
+斜体：⌘I (command + I)<br />
+下划线：⌘U (command + U)</p>
+<p>代码：⇧⌘<code>(shift + command +</code>)</p>
+<p>内联公式：⌃M (control + M)<br />
+删除线：⌃~ (control + ~)<br />
+注释：⌃- (control + -)</p>
+<p>超链接:⌘K (command + K)<br />
+图像：⌃⌘I (control + command + U)<br />
+清除样式：⌘\ (command + )</p>
+<p>显示/隐藏侧边栏：⇧⌘L (shift + command + L)<br />
+大纲视图：⌃⌘1 (control + command + 1)<br />
+文档列表视图：⌃⌘2 (control + command +2)<br />
+文件树视图：⌃⌘3 (control + command + 3)</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ubuntu设置静态IP</title>
+    <url>/2023/05/28/Ubuntu%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81IP/</url>
+    <content><![CDATA[<h2 id="进入netplan目录并查看文件"><a class="markdownIt-Anchor" href="#进入netplan目录并查看文件"></a> 进入netplan目录并查看文件</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd /etc/netplan/ &amp;&amp; ll</span><br></pre></td></tr></table></figure>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-28/%E7%9B%AE%E5%BD%95%E6%9F%A5%E7%9C%8B.png" width="85%" height="100%" />
+<h2 id="网卡信息"><a class="markdownIt-Anchor" href="#网卡信息"></a> 网卡信息</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-28/%E7%BD%91%E5%8D%A1%E4%BF%A1%E6%81%AF.png" width="85%" height="100%" />
+<h2 id="编辑配置文件"><a class="markdownIt-Anchor" href="#编辑配置文件"></a> 编辑配置文件</h2>
+<p><strong>用vim编辑器打开01-network-manager-all.yaml文件，进行编辑</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">network:</span><br><span class="line">    ethernets:</span><br><span class="line">        ens33:                    ## 根据自己配置的网卡名称改,使用ip addr查看得到</span><br><span class="line">            dhcp4: false</span><br><span class="line">            addresses:</span><br><span class="line">              - 10.10.10.1/8   ## 设置本机IP及掩码，空</span><br><span class="line">            routes:</span><br><span class="line">              - to: default</span><br><span class="line">                via: 10.1.1.1  ## 默认路由</span><br><span class="line">            nameservers:</span><br><span class="line">              addresses: [1.1.1.1,8.8.8.8,10.1.1.1]  ## DNS设置</span><br><span class="line">    version: 2</span><br></pre></td></tr></table></figure>
+<p><strong>ps：vim基础命令</strong><br />
+<strong>命令模式：“:”</strong><br />
+<strong>编辑：i</strong><br />
+<strong>保存：wq</strong><br />
+<strong>不保存退出：q</strong></p>
+]]></content>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows应用推荐</title>
+    <url>/2023/05/02/Windows%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>Windows应用推荐Windows应用推荐</p>
+]]></content>
+      <categories>
+        <category>应用推荐</category>
+      </categories>
+      <tags>
+        <tag>app</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>将本地项目推送到GitHub</title>
+    <url>/2023/04/20/%E5%B0%86%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E6%8E%A8%E9%80%81%E5%88%B0GitHub/</url>
+    <content><![CDATA[<p><strong>说明：</strong></p>
+<p>1.默认已安装和配置git，如果没配置好请跳转<a href="http://epochge.com/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/">Git安装与配置</a></p>
+<p>2.仓库名字：Test</p>
+<h3 id="1在github创建新test仓库"><a class="markdownIt-Anchor" href="#1在github创建新test仓库"></a> 1.在GitHub创建新Test仓库</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="" /></p>
+<h3 id="2项目初始化"><a class="markdownIt-Anchor" href="#2项目初始化"></a> 2.项目初始化</h3>
+<p>进入项目根目录执行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%96%87%E4%BB%B6%E5%88%9D%E5%A7%8B%E5%8C%96.png" alt="" /></p>
+<p>初始化后在项目目录多出了.git文件夹</p>
+<h3 id="3查看提交状态"><a class="markdownIt-Anchor" href="#3查看提交状态"></a> 3.查看提交状态</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E7%8A%B6%E6%80%81%E6%9F%A5%E8%AF%A2.png" alt="" /></p>
+<h3 id="4git-add-添加内容到索引"><a class="markdownIt-Anchor" href="#4git-add-添加内容到索引"></a> 4.git add  添加内容到索引</h3>
+<p>输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add A</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E5%90%8E%E7%8A%B6%E6%80%81.png" alt="" /></p>
+<h3 id="5提交注释"><a class="markdownIt-Anchor" href="#5提交注释"></a> 5.提交注释</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit -m &#x27;内容&#x27;</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%8F%90%E4%BA%A4%E6%B3%A8%E9%87%8A.png" alt="" /></p>
+<h3 id="6将本地-文件与github仓库关联"><a class="markdownIt-Anchor" href="#6将本地-文件与github仓库关联"></a> 6.将本地 文件与GitHub仓库关联</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git remote add origin 仓库链接</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E6%9C%AC%E5%9C%B0%E5%85%B3%E8%81%94GitHub%E4%BB%93%E5%BA%93.png" alt="" /></p>
+<h3 id="7推送到github远程仓库"><a class="markdownIt-Anchor" href="#7推送到github远程仓库"></a> 7.推送到GitHub远程仓库</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/%E4%B8%8A%E4%BC%A0%E6%88%90%E5%8A%9F.png" alt="" /></p>
+<p><strong>至此教程完成，这只是一个关于Git和GitHub的初步应用，实际上它们还有很多强大的功能需要你去探索</strong></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>GitHub</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>构建开源的GPT4</title>
     <url>/2023/05/10/%E6%9E%84%E5%BB%BA%E5%BC%80%E6%BA%90%E7%9A%84GPT4/</url>
     <content><![CDATA[<h3 id="github开源地址"><a class="markdownIt-Anchor" href="#github开源地址"></a> <a href="https://github.com/xtekky/gpt4free">GitHub开源地址</a></h3>
@@ -433,19 +469,6 @@
       <tags>
         <tag>ChatGPT</tag>
         <tag>GPT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows应用推荐</title>
-    <url>/2023/05/02/Windows%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>Windows应用推荐Windows应用推荐</p>
-]]></content>
-      <categories>
-        <category>应用推荐</category>
-      </categories>
-      <tags>
-        <tag>app</tag>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
