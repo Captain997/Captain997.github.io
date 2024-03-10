@@ -33,36 +33,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Cloudflare WARP</title>
-    <url>/2023/05/11/Cloudflare%20WARP/</url>
-    <content><![CDATA[<h2 id="一键安装cloudflare-warp"><a class="markdownIt-Anchor" href="#一键安装cloudflare-warp"></a> 一键安装Cloudflare WARP</h2>
-<h3 id="项目地址github"><a class="markdownIt-Anchor" href="#项目地址github"></a> 项目地址：<a href="https://github.com/P3TERX/warp.sh">GitHub</a></h3>
-<h3 id="自动配置-warp-wireguard-双栈全局网络"><a class="markdownIt-Anchor" href="#自动配置-warp-wireguard-双栈全局网络"></a> 自动配置 WARP WireGuard 双栈全局网络</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) d</span><br></pre></td></tr></table></figure>
-<h3 id="ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"><a class="markdownIt-Anchor" href="#ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"></a> IPv4/IPv6 网络中的一个出口走 WARP Wire­Guard 网络</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 自动配置 WARP WireGuard IPv4 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 4</span><br><span class="line"># 自动配置 WARP WireGuard IPv6 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 6</span><br></pre></td></tr></table></figure>
-<h3 id="重启-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#重启-warp-wireguard-网络接口"></a> 重启 WARP WireGuard 网络接口</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart wg-quick@wgcf</span><br></pre></td></tr></table></figure>
-<h3 id="禁用-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#禁用-warp-wireguard-网络接口"></a> 禁用 WARP WireGuard 网络接口</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable wg-quick@wgcf --now</span><br></pre></td></tr></table></figure>
-<h3 id="自动配置-warp-官方客户端-socks5-代理"><a class="markdownIt-Anchor" href="#自动配置-warp-官方客户端-socks5-代理"></a> 自动配置 WARP 官方客户端 SOCKS5 代理</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) s5</span><br></pre></td></tr></table></figure>
-<h3 id="卸载-warp-官方-linux-客户端"><a class="markdownIt-Anchor" href="#卸载-warp-官方-linux-客户端"></a> 卸载 WARP 官方 Linux 客户端</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) uninstall</span><br></pre></td></tr></table></figure>
-<h2 id="warp-脚本功能菜单"><a class="markdownIt-Anchor" href="#warp-脚本功能菜单"></a> WARP 脚本功能菜单</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) menu</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>服务器</category>
-        <category>笔记</category>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>服务器</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>E5开发者计划续订</title>
     <url>/2023/04/30/E5%E5%BC%80%E5%8F%91%E8%80%85%E8%AE%A1%E5%88%92%E7%BB%AD%E8%AE%A2/</url>
     <content><![CDATA[<p><strong>原教程已不适用，未来出现稳定方法再更新！</strong></p>
@@ -146,6 +116,36 @@
       <tags>
         <tag>教程</tag>
         <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Cloudflare WARP</title>
+    <url>/2023/05/11/Cloudflare%20WARP/</url>
+    <content><![CDATA[<h2 id="一键安装cloudflare-warp"><a class="markdownIt-Anchor" href="#一键安装cloudflare-warp"></a> 一键安装Cloudflare WARP</h2>
+<h3 id="项目地址github"><a class="markdownIt-Anchor" href="#项目地址github"></a> 项目地址：<a href="https://github.com/P3TERX/warp.sh">GitHub</a></h3>
+<h3 id="自动配置-warp-wireguard-双栈全局网络"><a class="markdownIt-Anchor" href="#自动配置-warp-wireguard-双栈全局网络"></a> 自动配置 WARP WireGuard 双栈全局网络</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) d</span><br></pre></td></tr></table></figure>
+<h3 id="ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"><a class="markdownIt-Anchor" href="#ipv4ipv6-网络中的一个出口走-warp-wireguard-网络"></a> IPv4/IPv6 网络中的一个出口走 WARP Wire­Guard 网络</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 自动配置 WARP WireGuard IPv4 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 4</span><br><span class="line"># 自动配置 WARP WireGuard IPv6 网络</span><br><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) 6</span><br></pre></td></tr></table></figure>
+<h3 id="重启-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#重启-warp-wireguard-网络接口"></a> 重启 WARP WireGuard 网络接口</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart wg-quick@wgcf</span><br></pre></td></tr></table></figure>
+<h3 id="禁用-warp-wireguard-网络接口"><a class="markdownIt-Anchor" href="#禁用-warp-wireguard-网络接口"></a> 禁用 WARP WireGuard 网络接口</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl disable wg-quick@wgcf --now</span><br></pre></td></tr></table></figure>
+<h3 id="自动配置-warp-官方客户端-socks5-代理"><a class="markdownIt-Anchor" href="#自动配置-warp-官方客户端-socks5-代理"></a> 自动配置 WARP 官方客户端 SOCKS5 代理</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) s5</span><br></pre></td></tr></table></figure>
+<h3 id="卸载-warp-官方-linux-客户端"><a class="markdownIt-Anchor" href="#卸载-warp-官方-linux-客户端"></a> 卸载 WARP 官方 Linux 客户端</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) uninstall</span><br></pre></td></tr></table></figure>
+<h2 id="warp-脚本功能菜单"><a class="markdownIt-Anchor" href="#warp-脚本功能菜单"></a> WARP 脚本功能菜单</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash &lt;(curl -fsSL git.io/warp.sh) menu</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>服务器</category>
+        <category>笔记</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -603,6 +603,20 @@ LuCI --&gt; Themes # 选择喜欢的主题，可以选多个</p>
       </categories>
       <tags>
         <tag>OpenWrt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>部分软件激活密钥</title>
+    <url>/2024/03/10/%E9%83%A8%E5%88%86%E8%BD%AF%E4%BB%B6%E6%BF%80%E6%B4%BB%E5%AF%86%E9%92%A5/</url>
+    <content><![CDATA[<h2 id="常用开发软件"><a class="markdownIt-Anchor" href="#常用开发软件"></a> 常用开发软件</h2>
+<h3 id="一-git"><a class="markdownIt-Anchor" href="#一-git"></a> 一、<a href="https://git-scm.com/download">Git</a></h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/1.png" alt="" /></p>
+<h3 id="二-idea"><a class="markdownIt-Anchor" href="#二-idea"></a> 二、<a href="https://www.jetbrains.com/idea/download/?section=mac">IDEA</a></h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2024-3-10/ideaDownload.png" alt="" /></p>
+]]></content>
+      <tags>
+        <tag>开发工具</tag>
+        <tag>密钥</tag>
       </tags>
   </entry>
 </search>
