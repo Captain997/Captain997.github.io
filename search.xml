@@ -76,19 +76,6 @@
       </tags>
   </entry>
   <entry>
-    <title>MacOS应用推荐</title>
-    <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
-]]></content>
-      <categories>
-        <category>应用推荐</category>
-      </categories>
-      <tags>
-        <tag>app</tag>
-        <tag>MacOS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git安装与配置</title>
     <url>/2023/05/02/Git%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
@@ -159,88 +146,6 @@
       <tags>
         <tag>教程</tag>
         <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown笔记</title>
-    <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
-<h2 id="1标题"><a class="markdownIt-Anchor" href="#1标题"></a> 1.标题</h2>
-<h1 id="一级标题-写法-标题名"><a class="markdownIt-Anchor" href="#一级标题-写法-标题名"></a> 一级标题    写法:  # 标题名</h1>
-<h2 id="二级标题-写法-标题名"><a class="markdownIt-Anchor" href="#二级标题-写法-标题名"></a> 二级标题    写法:  ## 标题名</h2>
-<h3 id="三级标题-写法-标题名"><a class="markdownIt-Anchor" href="#三级标题-写法-标题名"></a> 三级标题    写法:  ### 标题名</h3>
-<h2 id="2空格-写法-nbsp空格"><a class="markdownIt-Anchor" href="#2空格-写法-nbsp空格"></a> 2.空格    写法:  &amp;nbsp+空格;</h2>
-<p>    空两格效果</p>
-<p>测试测试测试测试测试测试测试</p>
-<h1 id="typora快捷键"><a class="markdownIt-Anchor" href="#typora快捷键"></a> Typora快捷键</h1>
-<p>1.新建：Ctrl+N<br />
-2.打开：Ctrl+O<br />
-3.打印：Ctrl+P<br />
-4.保存：Ctrl+S<br />
-5.另存为：Ctrl+Shift+S<br />
-6.偏好设置：Ctrl+,<br />
-7.关闭：Ctrl+W<br />
-8.查找：Ctrl+F</p>
-<p>一级标题：⌘1 (command + 1)<br />
-二级标题：⌘2 (command + 2)<br />
-三级标题：⌘3 (command + 3)</p>
-<p>表格：⌥⌘T (option + command + T)<br />
-代码块：⌥⌘C (option + command + C)<br />
-公式块：⌥⌘B (option + command + B)</p>
-<p>引用：⌥⌘Q (option + command + Q)<br />
-有序列表：⌥⌘O (option + command + O)<br />
-无序列表：⌥⌘U (option + command + U)</p>
-<p>任务列表：⌥⌘X (option + command + X)<br />
-列表缩进：<br />
-​ 增加缩进：⌘] ( command + ])<br />
-​ 减少缩进：⌘[ ( command + [)</p>
-<p>链接引用：⌥⌘L (option + command + L)<br />
-脚注：⌥⌘R (option + command + R)</p>
-<p>水平分割线：⇧⌘- (shift + command + -)</p>
-<p>加粗：⌘B (command + B)<br />
-斜体：⌘I (command + I)<br />
-下划线：⌘U (command + U)</p>
-<p>代码：⇧⌘<code>(shift + command +</code>)</p>
-<p>内联公式：⌃M (control + M)<br />
-删除线：⌃~ (control + ~)<br />
-注释：⌃- (control + -)</p>
-<p>超链接:⌘K (command + K)<br />
-图像：⌃⌘I (control + command + U)<br />
-清除样式：⌘\ (command + )</p>
-<p>显示/隐藏侧边栏：⇧⌘L (shift + command + L)<br />
-大纲视图：⌃⌘1 (control + command + 1)<br />
-文档列表视图：⌃⌘2 (control + command +2)<br />
-文件树视图：⌃⌘3 (control + command + 3)</p>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ubuntu设置静态IP</title>
-    <url>/2023/05/28/Ubuntu%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81IP/</url>
-    <content><![CDATA[<h2 id="进入netplan目录并查看文件"><a class="markdownIt-Anchor" href="#进入netplan目录并查看文件"></a> 进入netplan目录并查看文件</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd /etc/netplan/ &amp;&amp; ll</span><br></pre></td></tr></table></figure>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-28/%E7%9B%AE%E5%BD%95%E6%9F%A5%E7%9C%8B.png" width="85%" height="100%" />
-<h2 id="网卡信息"><a class="markdownIt-Anchor" href="#网卡信息"></a> 网卡信息</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure>
-<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-28/%E7%BD%91%E5%8D%A1%E4%BF%A1%E6%81%AF.png" width="85%" height="100%" />
-<h2 id="编辑配置文件"><a class="markdownIt-Anchor" href="#编辑配置文件"></a> 编辑配置文件</h2>
-<p><strong>用vim编辑器打开01-network-manager-all.yaml文件，进行编辑</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">network:</span><br><span class="line">    ethernets:</span><br><span class="line">        ens33:                    ## 根据自己配置的网卡名称改,使用ip addr查看得到</span><br><span class="line">            dhcp4: false</span><br><span class="line">            addresses:</span><br><span class="line">              - 10.10.10.1/8   ## 设置本机IP及掩码，空</span><br><span class="line">            routes:</span><br><span class="line">              - to: default</span><br><span class="line">                via: 10.1.1.1  ## 默认路由</span><br><span class="line">            nameservers:</span><br><span class="line">              addresses: [1.1.1.1,8.8.8.8,10.1.1.1]  ## DNS设置</span><br><span class="line">    version: 2</span><br></pre></td></tr></table></figure>
-<p><strong>ps：vim基础命令</strong><br />
-<strong>命令模式：“:”</strong><br />
-<strong>编辑：i</strong><br />
-<strong>保存：wq</strong><br />
-<strong>不保存退出：q</strong></p>
-]]></content>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -393,6 +298,101 @@
       </tags>
   </entry>
   <entry>
+    <title>MacOS应用推荐</title>
+    <url>/2023/05/02/MacOS%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>MacOS应用推荐MacOS应用推荐MacOS应用推荐</p>
+]]></content>
+      <categories>
+        <category>应用推荐</category>
+      </categories>
+      <tags>
+        <tag>app</tag>
+        <tag>MacOS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown笔记</title>
+    <url>/2023/05/02/Markdown%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h1>
+<h2 id="1标题"><a class="markdownIt-Anchor" href="#1标题"></a> 1.标题</h2>
+<h1 id="一级标题-写法-标题名"><a class="markdownIt-Anchor" href="#一级标题-写法-标题名"></a> 一级标题    写法:  # 标题名</h1>
+<h2 id="二级标题-写法-标题名"><a class="markdownIt-Anchor" href="#二级标题-写法-标题名"></a> 二级标题    写法:  ## 标题名</h2>
+<h3 id="三级标题-写法-标题名"><a class="markdownIt-Anchor" href="#三级标题-写法-标题名"></a> 三级标题    写法:  ### 标题名</h3>
+<h2 id="2空格-写法-nbsp空格"><a class="markdownIt-Anchor" href="#2空格-写法-nbsp空格"></a> 2.空格    写法:  &amp;nbsp+空格;</h2>
+<p>    空两格效果</p>
+<p>测试测试测试测试测试测试测试</p>
+<h1 id="typora快捷键"><a class="markdownIt-Anchor" href="#typora快捷键"></a> Typora快捷键</h1>
+<p>1.新建：Ctrl+N<br />
+2.打开：Ctrl+O<br />
+3.打印：Ctrl+P<br />
+4.保存：Ctrl+S<br />
+5.另存为：Ctrl+Shift+S<br />
+6.偏好设置：Ctrl+,<br />
+7.关闭：Ctrl+W<br />
+8.查找：Ctrl+F</p>
+<p>一级标题：⌘1 (command + 1)<br />
+二级标题：⌘2 (command + 2)<br />
+三级标题：⌘3 (command + 3)</p>
+<p>表格：⌥⌘T (option + command + T)<br />
+代码块：⌥⌘C (option + command + C)<br />
+公式块：⌥⌘B (option + command + B)</p>
+<p>引用：⌥⌘Q (option + command + Q)<br />
+有序列表：⌥⌘O (option + command + O)<br />
+无序列表：⌥⌘U (option + command + U)</p>
+<p>任务列表：⌥⌘X (option + command + X)<br />
+列表缩进：<br />
+​ 增加缩进：⌘] ( command + ])<br />
+​ 减少缩进：⌘[ ( command + [)</p>
+<p>链接引用：⌥⌘L (option + command + L)<br />
+脚注：⌥⌘R (option + command + R)</p>
+<p>水平分割线：⇧⌘- (shift + command + -)</p>
+<p>加粗：⌘B (command + B)<br />
+斜体：⌘I (command + I)<br />
+下划线：⌘U (command + U)</p>
+<p>代码：⇧⌘<code>(shift + command +</code>)</p>
+<p>内联公式：⌃M (control + M)<br />
+删除线：⌃~ (control + ~)<br />
+注释：⌃- (control + -)</p>
+<p>超链接:⌘K (command + K)<br />
+图像：⌃⌘I (control + command + U)<br />
+清除样式：⌘\ (command + )</p>
+<p>显示/隐藏侧边栏：⇧⌘L (shift + command + L)<br />
+大纲视图：⌃⌘1 (control + command + 1)<br />
+文档列表视图：⌃⌘2 (control + command +2)<br />
+文件树视图：⌃⌘3 (control + command + 3)</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ubuntu设置静态IP</title>
+    <url>/2023/05/28/Ubuntu%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81IP/</url>
+    <content><![CDATA[<h2 id="进入netplan目录并查看文件"><a class="markdownIt-Anchor" href="#进入netplan目录并查看文件"></a> 进入netplan目录并查看文件</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd /etc/netplan/ &amp;&amp; ll</span><br></pre></td></tr></table></figure>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-28/%E7%9B%AE%E5%BD%95%E6%9F%A5%E7%9C%8B.png" width="85%" height="100%" />
+<h2 id="网卡信息"><a class="markdownIt-Anchor" href="#网卡信息"></a> 网卡信息</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure>
+<img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2023-5-28/%E7%BD%91%E5%8D%A1%E4%BF%A1%E6%81%AF.png" width="85%" height="100%" />
+<h2 id="编辑配置文件"><a class="markdownIt-Anchor" href="#编辑配置文件"></a> 编辑配置文件</h2>
+<p><strong>用vim编辑器打开01-network-manager-all.yaml文件，进行编辑</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">network:</span><br><span class="line">    ethernets:</span><br><span class="line">        ens33:                    ## 根据自己配置的网卡名称改,使用ip addr查看得到</span><br><span class="line">            dhcp4: false</span><br><span class="line">            addresses:</span><br><span class="line">              - 10.10.10.1/8   ## 设置本机IP及掩码，空</span><br><span class="line">            routes:</span><br><span class="line">              - to: default</span><br><span class="line">                via: 10.1.1.1  ## 默认路由</span><br><span class="line">            nameservers:</span><br><span class="line">              addresses: [1.1.1.1,8.8.8.8,10.1.1.1]  ## DNS设置</span><br><span class="line">    version: 2</span><br></pre></td></tr></table></figure>
+<p><strong>ps：vim基础命令</strong><br />
+<strong>命令模式：“:”</strong><br />
+<strong>编辑：i</strong><br />
+<strong>保存：wq</strong><br />
+<strong>不保存退出：q</strong></p>
+]]></content>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows应用推荐</title>
     <url>/2023/05/02/Windows%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>Windows应用推荐Windows应用推荐</p>
@@ -473,34 +473,12 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl status alist</span><br></pre></td></tr></table></figure>
 <p>重启：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl restart alist</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
       <tags>
         <tag>教程</tag>
         <tag>alist</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>构建开源的GPT4</title>
-    <url>/2023/05/10/%E6%9E%84%E5%BB%BA%E5%BC%80%E6%BA%90%E7%9A%84GPT4/</url>
-    <content><![CDATA[<h3 id="github开源地址"><a class="markdownIt-Anchor" href="#github开源地址"></a> <a href="https://github.com/xtekky/gpt4free">GitHub开源地址</a></h3>
-<h3 id="克隆文件至本地"><a class="markdownIt-Anchor" href="#克隆文件至本地"></a> 克隆文件至本地</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/xtekky/gpt4free.git</span><br></pre></td></tr></table></figure>
-<h3 id="下载依赖"><a class="markdownIt-Anchor" href="#下载依赖"></a> 下载依赖</h3>
-<p><strong>进入gpt4free根目录执行</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip3 install -r requirements.txt</span><br></pre></td></tr></table></figure>
-<h3 id="将gui拷贝至gpt4free根目录"><a class="markdownIt-Anchor" href="#将gui拷贝至gpt4free根目录"></a> 将gui拷贝至gpt4free根目录</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp gui/streamlit_app.py .</span><br></pre></td></tr></table></figure>
-<h3 id="运行"><a class="markdownIt-Anchor" href="#运行"></a> 运行</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python3 -m streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
-<p><strong>或者</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>ChatGPT</tag>
-        <tag>GPT</tag>
       </tags>
   </entry>
   <entry>
@@ -531,6 +509,45 @@
       <tags>
         <tag>域名</tag>
         <tag>免费</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>构建开源的GPT4</title>
+    <url>/2023/05/10/%E6%9E%84%E5%BB%BA%E5%BC%80%E6%BA%90%E7%9A%84GPT4/</url>
+    <content><![CDATA[<h3 id="github开源地址"><a class="markdownIt-Anchor" href="#github开源地址"></a> <a href="https://github.com/xtekky/gpt4free">GitHub开源地址</a></h3>
+<h3 id="克隆文件至本地"><a class="markdownIt-Anchor" href="#克隆文件至本地"></a> 克隆文件至本地</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/xtekky/gpt4free.git</span><br></pre></td></tr></table></figure>
+<h3 id="下载依赖"><a class="markdownIt-Anchor" href="#下载依赖"></a> 下载依赖</h3>
+<p><strong>进入gpt4free根目录执行</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip3 install -r requirements.txt</span><br></pre></td></tr></table></figure>
+<h3 id="将gui拷贝至gpt4free根目录"><a class="markdownIt-Anchor" href="#将gui拷贝至gpt4free根目录"></a> 将gui拷贝至gpt4free根目录</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cp gui/streamlit_app.py .</span><br></pre></td></tr></table></figure>
+<h3 id="运行"><a class="markdownIt-Anchor" href="#运行"></a> 运行</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python3 -m streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
+<p><strong>或者</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">streamlit run streamlit_app.py</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>GPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>部分软件激活密钥</title>
+    <url>/2024/03/10/%E9%83%A8%E5%88%86%E8%BD%AF%E4%BB%B6%E6%BF%80%E6%B4%BB%E5%AF%86%E9%92%A5/</url>
+    <content><![CDATA[<h2 id="常用开发软件"><a class="markdownIt-Anchor" href="#常用开发软件"></a> 常用开发软件</h2>
+<h3 id="一-git"><a class="markdownIt-Anchor" href="#一-git"></a> 一、<a href="https://git-scm.com/download">Git</a></h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/1.png" alt="" /></p>
+<h3 id="二-idea"><a class="markdownIt-Anchor" href="#二-idea"></a> 二、<a href="https://www.jetbrains.com/idea/download/?section=mac">IDEA</a></h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2024-3-10/ideaDownload.png" alt="" /></p>
+]]></content>
+      <tags>
+        <tag>开发工具</tag>
+        <tag>密钥</tag>
       </tags>
   </entry>
   <entry>
@@ -635,20 +652,6 @@ LuCI --&gt; Themes # 选择喜欢的主题，可以选多个</p>
       </categories>
       <tags>
         <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>部分软件激活密钥</title>
-    <url>/2024/03/10/%E9%83%A8%E5%88%86%E8%BD%AF%E4%BB%B6%E6%BF%80%E6%B4%BB%E5%AF%86%E9%92%A5/</url>
-    <content><![CDATA[<h2 id="常用开发软件"><a class="markdownIt-Anchor" href="#常用开发软件"></a> 常用开发软件</h2>
-<h3 id="一-git"><a class="markdownIt-Anchor" href="#一-git"></a> 一、<a href="https://git-scm.com/download">Git</a></h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/blogimg/2023-5-2/1.png" alt="" /></p>
-<h3 id="二-idea"><a class="markdownIt-Anchor" href="#二-idea"></a> 二、<a href="https://www.jetbrains.com/idea/download/?section=mac">IDEA</a></h3>
-<p><img src="https://cdn.jsdelivr.net/gh/Captain997/images@main/blogimg/2024-3-10/ideaDownload.png" alt="" /></p>
-]]></content>
-      <tags>
-        <tag>开发工具</tag>
-        <tag>密钥</tag>
       </tags>
   </entry>
 </search>
